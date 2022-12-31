@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Desa Terpadu</title>
+        <!-- Favicon-->
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <!-- Font Awesome icons (free version)-->
+        <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+        <!-- Core theme CSS (includes Bootstrap)-->
+       <link href="css/slick.css" rel="stylesheet">
+       <link href="css/slick-theme.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet" >
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar fixed-top navbar-expand-lg bg-light" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                <img src="images/logo-75.png" srcset="images/logo-75.png 75w" alt="Desa Terpadu">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle = "offcanvas"
+                data-bs-target = "#offcanvasExample" aria-controls = "offcanvasExample">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="offcanvas offcanvas-start-lg" tabindex = "-1" id="offcanvasExample"
+                aria-labelledby = "offcanvasExampleLabel">
+                   
+                    <div class = "offcanvas-header d-flex d-lg-none">
+                        <div class="container">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="images/logo-75.png" srcset="images/logo-75.png 75w" alt="Desa Terpadu">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current= "page" href="desa.html">
+                                    <span class="text">Beranda</span>
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="dropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="profildesa.html"><span class="text">profil desa</span></a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">          
+                                    <li><a class="dropdown-item" href="profildesa.html">Profil </a></li>
+                                    <li><a class="dropdown-item" href="profildesa.html">visi misi</a></li>
+                                    <li><a class="dropdown-item" href="profildesa.html">sejarah</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current= "page" href="beritadesa.html">
+                                    <span class="text">berita</span>
+                                </a>
+                            </li>
+                            
+                            <li class="nav-item dropdown ">
+                                <a href="#" id="menu" data-bs-toggle="dropdown" class="nav-link dropdown-toggle" data-bs-display="static"><span class="text">Kelembagaan</span></a>
+                                <ul class="dropdown-menu multi-drop">
+                                    <li class="dropdown-submenu dropdown">
+                                        <a href="#" data-bs-toggle="dropdown" class="dropdown-item dropdown-toggle">perangkat desa</a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="pegawaidesa.html" class="dropdown-item">desa</a>
+                                            </li>
+                                            <li>
+                                                <a href="bpddesa.html" class="dropdown-item">badan permusyawaratan desa</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown-item">badan usaha milik desa</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu">
+                                        <a href="#" data-bs-toggle="dropdown" class="dropdown-item dropdown-toggle">kemasyarakatan</a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="kemasyarakatan.html" class="dropdown-item">RT/RW</a>
+                                            </li>
+                                            <li>
+                                                <a href="kemasyarakatan.html" class="dropdown-item">lembaga permberdayaan masyarakat</a>
+                                            </li>
+                                            <li>
+                                                <a href="kemasyarakatan.html" class="dropdown-item">karang taruna</a>
+                                            </li>
+                                            <li>
+                                                <a href="kemasyarakatan.html" class="dropdown-item">posyandu</a>
+                                            </li>
+                                            <li>
+                                                <a href="kemasyarakatan.html" class="dropdown-item">PKK</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="dropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#"><span class="text">data desa</span></a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">          
+                                    <li><a class="dropdown-item" href="anggarandesa.html">laporan anggaran</a></li>
+                                    <li><a class="dropdown-item" href="#">dokumen</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current= "page" href="potensidesa.html">
+                                    <span class="text">potensi</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <header class="masthead transparant">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                       <!-- <img src="images/slideshow-1-mobile.jpg" srcset="images/slideshow-1-mobile.jpg 400w, images/slideshow-1-800.jpg 800w, slideshow-1-1600.jpg 16000w"
+                        class="d-block h-100" alt="Desa Terpadu"> -->
+                        <div class="img-mobile d-md-none">
+                            <!-- recommended size: 400x800 px -->
+                            <img src="images/slideshow-1-mobile.jpg" alt="Desa Terpadu" class="w-100">
+                        </div>
+                        <div class="img-desktop d-none d-md-block">
+                            <!-- recommended size: 1600x800 px -->
+                            <img src="images/slideshow-1-800.jpg" 
+                            srcset="images/slideshow-1-800.jpg 800w, 
+                                        images/slideshow-1-1600.jpg 1600w"
+                            alt="image caption here" class="w-100">
+                        </div>
+                        <div class="carousel-caption container text-start">
+                            <div class="big-title text-start">First slide label</div>
+                            <p class="big-desc">Sweet roll ice cream powder sweet wafer oat cake marshmallow cheesecake macaroon. Powder sesame snaps sesame snaps biscuit chocolate cake pie. </p>
+                            <a href="#deskripsiDesa" tabindex="-1" role="button" aria-disabled="true" class="btn btn-primary btn-white text-dark">Telusuri</a>
+                            
+                        </div>         
+                    </div>
+                    <div class="carousel-item">
+                        <div class="img-mobile d-md-none">
+                            <!-- recommended size: 400x800 px -->
+                            <img src="images/slideshow-2-mobile.jpg" alt="Desa Terpadu" class="w-100">
+                        </div>
+                        <div class="img-desktop d-none d-md-block">
+                            <!-- recommended size: 1600x800 px -->
+                            <img src="images/slideshow-2-800.jpg" 
+                            srcset="images/slideshow-2-800.jpg 800w, 
+                                        images/slideshow-2-1600.jpg 1600w"
+                            alt="image caption here" class="w-100">
+                        </div>
+                        <div class="carousel-caption container text-start">
+                            <div class="big-title">Second slide label</div>
+                            <p class="big-desc">Cupcake ipsum dolor sit amet caramels. Pie candy canes cake dessert liquorice biscuit. </p>
+                            <a href="#deskripsiDesa" tabindex="-1" role="button" aria-disabled="true" class="btn btn-primary btn-white text-dark">Telusuri</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="img-mobile d-md-none">
+                            <!-- recommended size: 400x800 px -->
+                            <img src="images/slideshow-3-mobile.jpg" alt="Desa Terpadu" class="w-100">
+                        </div>
+                        <div class="img-desktop d-none d-md-block">
+                            <!-- recommended size: 1600x800 px -->
+                            <img src="images/slideshow-3-800.jpg" 
+                            srcset="images/slideshow-3-800.jpg 800w, 
+                                        images/slideshow-3-1600.jpg 1600w"
+                            alt="image caption here" class="w-100">
+                        </div>
+                        <div class="carousel-caption container text-start">
+                            <div class="big-title">Third slide label</div>
+                            <p class="big-desc">Pudding tart liquorice fruitcake icing. Croissant marshmallow dessert bonbon jujubes.</p>
+                            <a href="#deskripsiDesa" tabindex="-1" role="button" aria-disabled="true" class="btn btn-primary btn-white text-dark">Telusuri</a>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </header>
+
+        <section id="deskripsiDesa" style="margin-top:0;">
+            <div class="container">
+                <div class="content pt-0">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 text-dark text-center text-md-start align-self-md-center">
+                            <h2 class="text-medium">Sukatani</h2>
+                            <h4 class="mt-4">Desa bersahaja</h4>
+                            <p class="text-light">Pemerintah Desa Sukatani berkomitmen penuh melayani masyarakat. Sebagai desa mandiri, Desa Sukatani terus bertumbuh bersama dengan masyarakat desa.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="img-desa d-flex flex-wrap">
+                                <img src="images/img-desa-1-400.jpg" class="d-block px-1">
+                                <img src="images/img-desa-2-400.jpg" class="d-block px-1">
+                                <img src="images/img-desa-3-400.jpg" class="d-block px-1">
+                                <img src="images/img-desa-4-400.jpg" class="d-block px-1"> 
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+
+        <section id="dataWilayah">
+            <div class="container">
+                <div class="content text-center text-white">
+                    <h2 class="title-section mb-lg-5">Data Administrasi Wilayah</h2>
+                    <div class="row justify-content-center g-xl-5 text-center">
+                        <div class="col-3">
+                            <img src="images/icon-daerah.png">
+                            <p class="desc">959,6 Km2</p>
+                        </div>
+                        <div class="col-3">
+                            <img src="images/icon-family.png">
+                            <p class="desc">8.493 Penduduk</p>
+                        </div>
+                        <div class="col-3">
+                            <img src="images/icon-man.png">
+                            <p class="desc">4.461 Laki-Laki</p>
+                        </div>
+                        <div class="col-3">
+                            <img src="images/icon-woman.png">
+                            <p class="desc">4.032 Perempuan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </section>
+
+        <section id="berita" class="bg-content">
+            <div class="container">
+                <div class="body-content">
+                    <h2 class="title-section text-medium text-center text-white">Berita Terkini</h2>
+                    <div class="slick-news card-deck">
+                        <div class="card">
+                            <img src="images/berita-1-400.jpg" data-srcset="images/berita-1-400.jpg 400w, images/berita-1-800.jpg 800w" class="card-img-top">
+                            <div class="card-body">
+                              <h5 class="card-title"><a href="detaildesa.html">Card title</a></h5>
+                              <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <p class="card-text text-dark text-end">17 agustus 1945</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="images/berita-2-400.jpg" data-srcset="images/berita-2-400.jpg 400w, images/berita-2-800.jpg 800w" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="detaildesa.html">Card title</a></h5>
+                                <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p class="card-text text-dark text-end">17 agustus 1945</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="images/berita-3-400.jpg" data-srcset="images/berita-3-400.jpg 400w, images/berita-3-800.jpg 800w" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="detaildesa.html">Card title</a></h5>
+                                <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p class="card-text text-dark text-end">17 agustus 1945</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="images/berita-4-400.jpg" data-srcset="images/berita-4-400.jpg 400w, images/berita-4-800.jpg 800w" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="detaildesa.html">Card title</a></h5>
+                                <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p class="card-text text-dark text-end">17 agustus 1945</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="images/berita-5-400.jpg" data-srcset="images/berita-5-400.jpg 400w, images/berita-5-800.jpg 800w" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="detaildesa.html">Card title</a></h5>
+                                <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p class="card-text text-dark text-end">17 agustus 1945</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="images/berita-6-400.jpg" data-srcset="images/berita-6-400.jpg 400w, images/berita-6-800.jpg 800w" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="detaildesa.html">Card title</a></h5>
+                                <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p class="card-text text-dark text-end">17 agustus 1945</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </section>
+       
+       <section id="potensiDesa">
+        <div class="container">
+            <div class="content">
+                <h2 class="title-section text-medium text-center">Potensi Desa</h2>
+                <div class="slick-pd">
+                    <div class="card-pd d-md-flex align-items-md-center">
+                        <img src="images/berita-1-400.jpg" data-srcset="images/berita-1-400.jpg 400w, images/berita-1-800.jpg 800w" class="img-fluid img-pd">
+                        <div class="cardbody">
+                          <h5 class="card-title text-dark"><a href="detaildesa.html">Card title</a></h5>  
+                          <p class="card-text">
+                            Wisata Telaga Biru Cigaru di Cisoka Tangerang Banten adalah salah satu tempat wisata yang berada di Jl. Tiga Raksa, Kecamatan Cisoka Kabupaten Tangerang, Banten, Indonesia.
+                          </p>
+                          <a href="detaildesa.html" tabindex="-1" role="button" aria-disabled="true" class="btn btn-primary">Selengkapnya</a>
+                        </div>
+                    </div>
+                    <div class="card-pd d-md-flex align-items-md-center">
+                        <img src="images/berita-2-400.jpg" data-srcset="images/berita-2-400.jpg 400w, images/berita-2-800.jpg 800w" class="img-fluid img-pd">
+                        <div class="cardbody">
+                            <h5 class="card-title"><a href="detaildesa.html">Card title</a></h5>
+                          <p class="card-text">
+                            Cupcake ipsum dolor sit amet. Chocolate cake cake cake sugar plum chocolate cake cake bear claw gummi bears. Brownie soufflé muffin dessert chocolate cake cotton candy lemon drops carrot cake sugar plum.
+                          </p>
+                          <a href="detaildesa.html" tabindex="-1" role="button" aria-disabled="true" class="btn btn-primary">Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <footer class="mb-3">
+            <div class="container">
+                <div class="row mb-2 mb-md-5">
+                    <div class="col-md-8 d-flex flex-space-between align-items-center">
+                        <img src="images/logo-75.png" class="img-fluid me-3">
+                        <p>Jl. H. Somawinata No. 1 Kadu Agung<br>Kec. Tigaraksa Kabupaten Tangerang</p>
+                    </div>
+                    <div class="col-md-4 text-md-end">
+                        <ul class="medsos">
+                            <li>
+                                <a href="" target="_blank" class="medsos-fb"><span class="fab fa-facebook-f icon"></span></a></li>
+                            </li>
+                            <li>
+                                <a href="" target="_blank" class="medsos-twitter"><span class="fab fa-twitter icon"></span></a></li>
+                            </li>
+                            <li>
+                                <a href="" target="_blank" class="medsos-youtube"><span class="fab fa-youtube icon"></span></a></li>
+                            </li>
+                            <li>
+                                <a href="" target="_blank" class="medsos-ig"><span class="fab fa-instagram icon"></span></a></li>
+                            </li>
+                        </ul><!-- .social-nav -->
+                    </div>
+                </div>
+                <div class="copyright text-center pb-3">© 2022 Dinas Komunikasi dan Informatika Kabupaten Tangerang</div>
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script>  
+        <script type="text/javascript" src="js/popper.min.js"></script>  
+        <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="js/slick.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/lozad.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+    </body>
+</html>

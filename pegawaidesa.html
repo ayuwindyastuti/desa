@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Desa Terpadu</title>
+        <!-- Favicon-->
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <!-- Font Awesome icons (free version)-->
+        <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/bootstrap.min.css" rel="stylesheet" >
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar fixed-top navbar-expand-lg bg-light" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                <img src="images/logo-75.png" srcset="images/logo-75.png 75w" alt="Desa Terpadu">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle = "offcanvas"
+                data-bs-target = "#offcanvasExample" aria-controls = "offcanvasExample">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="offcanvas offcanvas-start-lg" tabindex = "-1" id="offcanvasExample"
+                aria-labelledby = "offcanvasExampleLabel">
+                   
+                    <div class = "offcanvas-header d-flex d-lg-none">
+                        <div class="container">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="images/logo-75.png" srcset="images/logo-75.png 75w" alt="Desa Terpadu">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current= "page" href="desa.html">
+                                    <span class="text">Beranda</span>
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="dropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="profildesa.html"><span class="text">profil desa</span></a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">          
+                                    <li><a class="dropdown-item" href="profildesa.html">Profil </a></li>
+                                    <li><a class="dropdown-item" href="profildesa.html">visi misi</a></li>
+                                    <li><a class="dropdown-item" href="profildesa.html">sejarah</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current= "page" href="beritadesa.html">
+                                    <span class="text">berita</span>
+                                </a>
+                            </li>
+                            
+                            <li class="nav-item dropdown ">
+                                <a href="#" id="menu" data-bs-toggle="dropdown" class="nav-link dropdown-toggle" data-bs-display="static"><span class="text">Kelembagaan</span></a>
+                                <ul class="dropdown-menu multi-drop">
+                                    <li class="dropdown-submenu dropdown">
+                                        <a href="#" data-bs-toggle="dropdown" class="dropdown-item dropdown-toggle">perangkat desa</a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="pegawaidesa.html" class="dropdown-item">desa</a>
+                                            </li>
+                                            <li>
+                                                <a href="bpddesa.html" class="dropdown-item">badan permusyawaratan desa</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown-item">badan usaha milik desa</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu">
+                                        <a href="#" data-bs-toggle="dropdown" class="dropdown-item dropdown-toggle">kemasyarakatan</a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="kemasyarakatan.html" class="dropdown-item">RT/RW</a>
+                                            </li>
+                                            <li>
+                                                <a href="kemasyarakatan.html" class="dropdown-item">lembaga permberdayaan masyarakat</a>
+                                            </li>
+                                            <li>
+                                                <a href="kemasyarakatan.html" class="dropdown-item">karang taruna</a>
+                                            </li>
+                                            <li>
+                                                <a href="kemasyarakatan.html" class="dropdown-item">posyandu</a>
+                                            </li>
+                                            <li>
+                                                <a href="kemasyarakatan.html" class="dropdown-item">PKK</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="dropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#"><span class="text">data desa</span></a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">          
+                                    <li><a class="dropdown-item" href="anggarandesa.html">laporan anggaran</a></li>
+                                    <li><a class="dropdown-item" href="#">dokumen</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current= "page" href="potensidesa.html">
+                                    <span class="text">potensi</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+       <section id="pegawaiDesa" class="bg-content vh-100">
+            <div class="container">
+                <div class="body-content text-center">
+                    <h2 class="title-section text-bold text-white">daftar pegawai desa sukatani</h2>
+                    <div class="row d-none d-md-block">
+                        <table class="table bg-white text-center align-middle mx-auto w-auto" id="gallery" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <thead>
+                                <tr>
+                                    <th scope="col">No</th>
+                                    <th scope="col">Foto</th>
+                                    <th scope="col">Nama</th>
+                                    <th scope="col">Jenis Kelamin</th>
+                                    <th scope="col">Jabatan</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td><a><img src="images/pegawai-1.jpg" class="img-fluid img-profil" data-bs-target="#carouselExample" data-bs-slide-to="0"/></a>
+                                    </td>
+                                    <td>Tom Cruise, ST.MJ.</td>
+                                    <td>Laki-laki</td>
+                                    <td>Kepala Desa</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td><img src="images/pegawai-2.jpg" class="img-fluid img-profil" data-bs-target="#carouselExample" data-bs-slide-to="1"/></td>
+                                    <td>Chris Evans, S.Kom</td>
+                                    <td>Laki-laki</td>
+                                    <td>Wakil Kepala Desa</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td><img src="images/pegawai-4.jpg" class="img-fluid img-profil" data-bs-target="#carouselExample" data-bs-slide-to="2"/></td>
+                                    <td>Katy Perry, S.Kom</td>
+                                    <td>Perempuan</td>
+                                    <td>Sekretaris Desa</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">4</th>
+                                    <td><img src="images/pegawai-3.jpg" class="img-fluid img-profil" data-bs-target="#carouselExample" data-bs-slide-to="3"/></td>
+                                    <td>Adam Levine, S.pd</td>
+                                    <td>Laki-laki</td>
+                                    <td>Kasi Pemerintahan</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="row d-md-none text-start bg-white bg-shadow rounded py-4 mx-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="col-sm-6 g-2">
+                            <div class="team p-2 d-flex justify-content-center align-items-center">
+                                <div class="image-team me-2">
+                                    <img src="images/pegawai-1.jpg" class="img-fluid img-profil" data-bs-target="#carouselExample" data-bs-slide-to="0">
+                                </div>
+                                <div class="desc-team">
+                                    <h3 class="mb-0 text-bold team-name">Tom Cruise, ST.MJ.</h3>
+                                    <p class="team-desc text-light">Kepala Desa</p>
+                                    <p class="mb-1"></p>
+                                    <p class="team-desc text-light">Laki-laki</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 g-2">
+                            <div class="team p-2 d-flex justify-content-center align-items-center">
+                                <div class="image-team me-2">
+                                    <img src="images/pegawai-2.jpg" class="img-fluid img-profil" data-bs-target="#carouselExample" data-bs-slide-to="1">
+                                </div>
+                                <div class="desc-team">
+                                    <h3 class="mb-0 text-bold team-name">Chris Evans, S.Kom</h3>
+                                    <p class="team-desc text-light">wakil Kepala Desa</p>
+                                    <p class="mb-1"></p>
+                                    <p class="team-desc text-light">Laki-laki</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 g-2">
+                            <div class="team p-2 d-flex justify-content-center align-items-center">
+                                <div class="image-team me-2">
+                                    <img src="images/pegawai-4.jpg" class="img-fluid img-profil" data-bs-target="#carouselExample" data-bs-slide-to="2">
+                                </div>
+                                <div class="desc-team">
+                                    <h3 class="mb-0 text-bold team-name">Katy Perry, S.Kom</h3>
+                                    <p class="team-desc text-light">sekretaris Desa</p>
+                                    <p class="mb-1"></p>
+                                    <p class="team-desc text-light">Perempuan</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 g-2">
+                            <div class="team p-2 d-flex justify-content-center align-items-center">
+                                <div class="image-team me-2">
+                                    <img src="images/pegawai-3.jpg" class="img-fluid img-profil" data-bs-target="#carouselExample" data-bs-slide-to="3">
+                                </div>
+                                <div class="desc-team">
+                                    <h3 class="mb-0 text-bold team-name">Adam Levine, S.pd</h3>
+                                    <p class="team-desc text-light">kasi pemerintahan</p>
+                                    <p class="mb-1"></p>
+                                    <p class="team-desc text-light">Laki-laki</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <div id="carouselExample" class="carousel slide" data-ride="carousel">
+                                
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img class="d-block w-100" src="images/pegawai-1.jpg" alt="First slide">
+                                    <span class="text-dark lh-lg">Tom Cruise, ST.MJ.</span>
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="d-block w-100" src="images/pegawai-2.jpg" alt="Second slide">
+                                    <span class="text-dark lh-lg">Chris Evans, S.Kom</span>
+                                </div>
+                                  <div class="carousel-item">
+                                    <img class="d-block w-100" src="images/pegawai-4.jpg" alt="Third slide">
+                                    <span class="text-dark lh-lg">Katy Perry, S.Kom</span>
+                                </div>
+                                  <div class="carousel-item">
+                                    <img class="d-block w-100" src="images/pegawai-3.jpg">
+                                    <span class="text-dark lh-lg">Adam Levine, S.pd</span>
+                                </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExample" role="button" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExample" role="button" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </section>
+
+       <footer class="mb-3">
+        <div class="container">
+            <div class="row mb-2 mb-md-5">
+                <div class="col-md-8 d-flex flex-space-between align-items-center">
+                    <img src="images/logo-75.png" class="img-fluid me-3">
+                    <p>Jl. H. Somawinata No. 1 Kadu Agung<br>Kec. Tigaraksa Kabupaten Tangerang</p>
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <ul class="medsos">
+                        <li>
+                            <a href="" target="_blank" class="medsos-fb"><span class="fab fa-facebook-f icon"></span></a></li>
+                        </li>
+                        <li>
+                            <a href="" target="_blank" class="medsos-twitter"><span class="fab fa-twitter icon"></span></a></li>
+                        </li>
+                        <li>
+                            <a href="" target="_blank" class="medsos-youtube"><span class="fab fa-youtube icon"></span></a></li>
+                        </li>
+                        <li>
+                            <a href="" target="_blank" class="medsos-ig"><span class="fab fa-instagram icon"></span></a></li>
+                        </li>
+                    </ul><!-- .social-nav -->
+                </div>
+            </div>
+            <div class="copyright text-center pb-3">© 2022 Dinas Komunikasi dan Informatika Kabupaten Tangerang</div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script>  
+    <script type="text/javascript" src="js/popper.min.js"></script>  
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/lozad.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    </body>
+</html>

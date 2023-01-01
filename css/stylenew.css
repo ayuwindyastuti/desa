@@ -8942,6 +8942,11 @@ textarea.input {
     border-radius: 10px;
     object-fit: cover;
 }
+.un-container {
+    max-width: inherit !important;
+    padding: inherit !important;
+    margin: inherit !important;
+  }
 
 
 @media (min-width: 768px) {
@@ -8957,7 +8962,12 @@ textarea.input {
         width: 150px !important;
         height: 100px !important;
     }
-    
+}
+.post_img.medium {
+    width: 100% !important;
+}
+.post_img.medium img {
+    height: 200px !important;
 }
 @media (min-width: 992px) {
     .post-img img {

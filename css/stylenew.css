@@ -8942,12 +8942,13 @@ textarea.input {
     border-radius: 10px;
     object-fit: cover;
 }
-.un-container {
-    max-width: inherit !important;
-    padding: inherit !important;
-    margin: inherit !important;
-  }
 
+.post_img.medium {
+    width: 100% !important;
+}
+.post_img.medium img {
+    height: 20px !important;
+}
 
 @media (min-width: 768px) {
     .main_right {
@@ -8963,12 +8964,6 @@ textarea.input {
         height: 100px !important;
     }
 }
-.post_img.medium {
-    width: 100% !important;
-}
-.post_img.medium img {
-    height: 200px !important;
-}
 @media (min-width: 992px) {
     .post-img img {
         height: 100px;
@@ -8976,6 +8971,9 @@ textarea.input {
     .post-img.latest-img img {
         width: 180px !important;
         height: 120px !important;
+    }
+    .post-img.medium img {
+        height: 180px;
     }
     
 }

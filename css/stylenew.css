@@ -1998,7 +1998,7 @@ body.search-results .hentry:first-child
 
 #page_content_wrapper .inner .sidebar_content .post.type-post.last_post
 {
-    margin-bottom: 20px;
+    margin-bottom: 0;
 }
 
 #page_content_wrapper .inner #blog_grid_wrapper.sidebar_content

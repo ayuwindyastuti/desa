@@ -1973,7 +1973,7 @@ body.single-galleries #page_content_wrapper .inner .inner_wrapper
 .post.type-post
 {
     width: 100%;
-    margin-bottom: 35px;
+    /* margin-bottom: 35px; */
     float: left;
     position: relative;
 }
@@ -2118,7 +2118,7 @@ body.single .post_wrapper
 {
     width: 100%;
     float: left;
-    margin-bottom: 30px;
+    margin-bottom: 0;
 }
 
 .post_header h2 a, .post_header_title h5 a, .post_header h5, .standard_wrapper h2 {
@@ -5847,6 +5847,7 @@ ul.flickr li
     width: 100%;
     text-align: left;
     z-index: 2;
+    padding: 0 20px;
 }
 
 .ppb_blog_fullwidth_slider .fullscreen_flexslider ul.slides li .slider_image .slider_post_title
@@ -6813,7 +6814,7 @@ ul.post_filter li a.selected
     /* max-width: 100% !important;
     height: auto; */
     width: 100%;
-    height: 200px;
+    /* height: 200px; */
     object-fit: cover;
     display: block;
     border-radius: 5px;

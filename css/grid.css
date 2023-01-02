@@ -1480,11 +1480,7 @@
   {
 	  font-size: 20px;
   }
-  
-  .post.type-post
-  {
-	  margin-bottom: 20px;
-  }
+
   
   #page_content_wrapper .inner .sidebar_wrapper .sidebar, .page_content_wrapper .inner .sidebar_wrapper .sidebar
   {
@@ -1836,7 +1832,7 @@
 	
 	.ppb_blog_fullwidth_slider ul.slides li .slider_image .slider_post_title
 	{
-		left: 10px;
+		left: 0;
 		bottom: 15px;
 	}
 	

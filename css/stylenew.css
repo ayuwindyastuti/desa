@@ -4770,7 +4770,7 @@ ul.flickr li
 #page_content_wrapper .posts.blog li, .page_content_wrapper .posts.blog li
 {
     float: left;
-    width: 49.4%;
+    width: unset;
     margin-right: 1.2%;
     margin-bottom: 1.2%;
     padding: 20px 0;

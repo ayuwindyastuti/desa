@@ -4305,9 +4305,11 @@ input[type=submit].center, input[type=button].center, a.button.center
     position: relative;
     z-index: 2;
     float: left;
-    width: 105px;
-    float: left;
+    width: unset;
     margin-right: 0;
+}
+.post_circle_thumb img {
+    display: block;
 }
 
 .post_circle_thumb .post_number

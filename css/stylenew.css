@@ -4304,7 +4304,6 @@ input[type=submit].center, input[type=button].center, a.button.center
 {
     position: relative;
     z-index: 2;
-    float: left;
     width: unset;
     margin-right: 0;
 }

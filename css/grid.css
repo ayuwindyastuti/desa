@@ -340,10 +340,10 @@
 	#page_content_wrapper .inner .sidebar_content { margin-right: 0; margin-top: 0; padding-right: 10px; padding-top: 0; }
 	#page_content_wrapper .inner .sidebar_content.left_sidebar { margin-right: 0; padding-top: 0; padding-left: 30px; }
 	#page_content_wrapper .inner .sidebar_wrapper, #page_content_wrapper .inner .sidebar_wrapper.left_sidebar { width: 31%; margin-right: 0; }
-	#page_content_wrapper .inner .sidebar_wrapper, .page_content_wrapper .inner .sidebar_wrapper { margin-left: 25px; }
+	#page_content_wrapper .inner .sidebar_wrapper, .page_content_wrapper .inner .sidebar_wrapper { margin-left: 0; }
 	.page_content_wrapper .inner .sidebar_wrapper { width: 34%; margin-top: 20px; }
 	#page_content_wrapper .inner .sidebar_wrapper.left_sidebar { margin-right: 0; }
-	#page_content_wrapper .inner .sidebar_content.full_width .post_wrapper .post_img img, #page_content_wrapper .inner .sidebar_content .post_wrapper .post_img img { max-width: 100%; height: auto; }
+	#page_content_wrapper .inner .sidebar_content.full_width .post_wrapper .post_img img, #page_content_wrapper .inner .sidebar_content .post_wrapper .post_img img { max-width: 100%;}
 
 	.post_content_wrapper { width: 100%; }
 	#page_content_wrapper .inner .sidebar_content.full_width .post_wrapper.full .post_img img { max-width: 726px; height: auto; }
@@ -856,7 +856,7 @@
 	
 	#page_content_wrapper .inner .inner_wrapper { padding: 0; }
 	#page_content_wrapper .inner .sidebar_content.full_width { width: 100%; margin-top: 15px; margin-bottom: 0; }
-	#page_content_wrapper .inner .sidebar_content img { max-width: 100%; height: auto; }
+	#page_content_wrapper .inner .sidebar_content img { max-width: 100%; }
 	#page_content_wrapper { width: 100%; margin-top: 0;  box-sizing: border-box; }
 	#page_content_wrapper.wide, .page_content_wrapper.wide { padding: 0; }
 	#page_content_wrapper .inner { width: 100%; padding: 0; margin-top: 30px; }
@@ -870,7 +870,7 @@
 	#page_content_wrapper .inner .sidebar_wrapper .sidebar .content { margin: 0; }
 	#page_content_wrapper .inner .sidebar_content.full_width#blog_grid_wrapper, #page_content_wrapper .inner .sidebar_content.full_width#galleries_grid_wrapper { width: 100%; }
 	.portfolio_header h6 { width: 31%; font-size: 12px; }
-	#page_content_wrapper .inner .sidebar_content img { max-width: 100%; height: auto; }
+	#page_content_wrapper .inner .sidebar_content img { max-width: 100%;}
 	.comment { width: 270px; }
 	.comment_arrow { display: none; }
 	.fullwidth_comment_wrapper .comment .right { width: 66%; margin-left: 15px; }

@@ -85,6 +85,3 @@ function switchStyle() {
 	  document.getElementById("exampleModal").classList.remove("custom");
 	}
 }
-
-
-

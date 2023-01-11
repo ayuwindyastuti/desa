@@ -2114,7 +2114,7 @@ body.single .post_wrapper
     margin-bottom: 0;
 }
 
-.post_header h2 a, .post_header_title h5 a, .post_header h5, .standard_wrapper h2, .post_header.grid a {
+.post_header h2 a, .post_header_title h5 a, .post_header h5, .standard_wrapper h2, .post_header.grid a, .ln-txt h3 {
     width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -4295,12 +4295,18 @@ input[type=submit].center, input[type=button].center, a.button.center
 .post_circle_thumb 
 {
     position: relative;
-    z-index: 2;
-    width: unset;
     margin-right: 0;
     width: 100px;
     height: 60px;
     float: left;
+}
+.posts.blog.withthumb li {
+    list-style: none;
+}
+.post_circle_thumb.index {
+    float: none;
+    width: 100%;
+    height: auto;
 }
 .post_circle_thumb img {
     display: block;
@@ -8987,6 +8993,33 @@ textarea.input {
     width: unset !important;
     height: unset !important;
 }
+.ln-list {
+   margin-bottom: 2rem;
+}
+.ln-txt h3 {
+    line-height: 1;
+    margin-bottom: 0;
+}
+.ln-txt h3 a {
+    color: #fff !important;
+    font-size: 0.75em;
+    text-transform: capitalize;
+}
+
+.ln-img img {
+    border-radius: 5px;
+    height: 240px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+}
+.ln-date {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.75em;
+}
+
 @media (min-width: 768px) {
     .main_right {
         overflow-y: auto;
@@ -9011,6 +9044,17 @@ textarea.input {
         display: block;
         width: 150px !important;
         height: 100px !important;
+    }
+    .ln-wrapper {
+        margin: -1.5em;
+    }
+    .ln-list {
+        width: 33.33%;
+        padding: 1.5em;
+        margin-bottom: 0;
+    }
+    .ln-list img {
+        height: 150px;
     }
 }
 @media (min-width: 992px) {
@@ -9040,6 +9084,9 @@ textarea.input {
      .post_img.ymal img {
         height: 130px !important;
     }
+    .ln-list img {
+        height: 200px;
+    }
 }
 @media (min-width:1200px) {
      .post-img.medium img {
@@ -9047,5 +9094,8 @@ textarea.input {
     }
     .post_img.ymal img {
         height: 160px !important;
+    }
+    .ln-list img {
+        height: 250px;
     }
 }

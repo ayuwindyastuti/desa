@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Desa Terpadu</title>
+        <!-- Favicon-->
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <!-- Font Awesome icons (free version)-->
+        <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+        <!-- Core theme CSS (includes Bootstrap)-->
+       <link href="css/slick.css" rel="stylesheet">
+       <link href="css/slick-theme.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet" >
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        
+        <link rel="stylesheet" href="css/animation.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="css/ilightbox/ilightbox.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="css/jqueryui/custom.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="js/plugins/flexslider/flexslider.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="css/tooltipster.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="css/stylenew.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="css/grid.css" type="text/css" media="all" />
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar fixed-top navbar-expand-lg" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                <img src="images/logo-75.png" srcset="images/logo-75.png 75w" alt="Desa Terpadu">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle = "offcanvas"
+                data-bs-target = "#offcanvasExample" aria-controls = "offcanvasExample">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="offcanvas offcanvas-start-lg" tabindex = "-1" id="offcanvasExample"
+                aria-labelledby = "offcanvasExampleLabel">
+                   
+                    <div class = "offcanvas-header d-flex d-lg-none">
+                        <div class="container">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="images/logo-75.png" srcset="images/logo-75.png 75w" alt="Desa Terpadu">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current= "page" href="index.html">
+                                    <span class="text">Beranda</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current = "page" href="nav-desa.html">
+                                    <span class="text">desa</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current = "page" href="nav-berita.html">
+                                    <span class="text">berita</span>
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="dropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span class="text">informasi publik</span></a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">          
+                                    <li><a class="dropdown-item" href="detail.html">Sub menu</a></li>
+                                    <li><a class="dropdown-item" href="detail.html">Sub menu</a></li>
+                                    <li><a class="dropdown-item" href="detail.html">Sub menu</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="dropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span class="text">pengumuman</span></a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">          
+                                    <li><a class="dropdown-item" href="detail.html">Sub menu</a></li>
+                                    <li><a class="dropdown-item" href="detail.html">Sub menu</a></li>
+                                    <li><a class="dropdown-item" href="detail.html">Sub menu</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead2">
+            <div class="container">
+                <div class="row">
+                    <div class="banner-wrap d-sm-flex flex-sm-row-reverse justify-content-sm-between align-items-sm-center">
+                        <div class="col-sm-6">
+                            <div class="image-wrapper">
+                                <img src="images/banner.png" class="d-block w-100 mb-3 mb-sm-0">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="text-wrapper w-sm-50 text-center text-sm-start">
+                                <div class="big-title">selamat datang <br>di <span class="text-purple">web desa</span> terpadu <br>kabupaten tangerang</div>
+                                <p class="big-desc text-light">Cupcake ipsum dolor sit amet sugar plum. Bear claw chocolate cake jelly beans tiramisu toffee caramels. Liquorice cake chupa chups liquorice bonbon cake.</p>
+                                <div class="input-group w-sm-75">
+                                    <input type="text" class="form-control me-3 rounded" placeholder="Cari desa" aria-label="Cari desa" aria-describedby="basic-addon2">
+                                    <a href="desa.html" class="btn btn-primary rounded" tabindex="-1" role="button" aria-disabled="true">Telusuri</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </header>
+
+        <section id="dataWilayah">
+            <div class="container">
+                <div class="content text-center">
+                    <h1 class="title-section text-medium mb-lg-5 text-white">Data Administrasi Wilayah</h1>
+                    <div class="row justify-content-center g-xl-5 text-center">
+                        <div class="col-3">
+                            <img src="images/icon-daerah.png">
+                            <p class="desc">959,6 Km2</p>
+                        </div>
+                        <div class="col-3">
+                            <img src="images/icon-tim.png">
+                            <p class="desc">3.909Jt Jiwa</p>
+                        </div>
+                        <div class="col-3">
+                            <img src="images/icon-peta.png">
+                            <p class="desc">29 Kecamatan</p>
+                        </div>
+                        <div class="col-3">
+                            <img src="images/icon-rmh.png">
+                            <p class="desc">246 Desa</p>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </section>
+
+        <section id="berita" class="bg-content">
+            <div class="container">
+                <div class="body-content">
+                    <h2 class="title-section text-medium text-center text-white">Berita Terkini</h2>
+                    <div class="ln-wrapper d-md-flex">
+                        <div class="ln-list">
+                            <div class="ln-img mb-2">
+                                <a href="detail.html"><img src="images/berita-1-800.jpg"></a>
+                            </div>
+                           <div class="ln-txt">
+                                <h3>
+                                    <a href="detail.html">Gingerbread icing gummi bears tootsie roll carrot</a>
+                                </h3>
+                            </div>
+                            <div class="ln-detail text-white mt-3">
+                                <p class="mb-0 text-medium">John Adams</p>
+                                <span class="ln-date text-light">posted on january 18, 2023</span>
+                            </div>
+                        </div>
+                        <div class="ln-list">
+                            <div class="ln-img mb-2">
+                                <a href="detail.html"><img src="images/berita-1-800.jpg"></a>
+                            </div>
+                           <div class="ln-txt">
+                                <h3>
+                                    <a href="detail.html">Biscuit cupcake brownie donut liquorice cupcake candy</a>
+                                </h3>
+                            </div>
+                            <div class="ln-detail text-white mt-3">
+                                <p class="mb-0 text-medium">John Adams</p>
+                                <span class="ln-date text-light">posted on january 18, 2023</span>
+                            </div>
+                        </div>
+                        <div class="ln-list">
+                            <div class="ln-img mb-2">
+                                <a href="detail.html"><img src="images/berita-1-800.jpg"></a>
+                            </div>
+                           <div class="ln-txt">
+                                <h3>
+                                    <a href="detail.html">Biscuit cupcake brownie donut liquorice cupcake candy</a>
+                                </h3>
+                            </div>
+                            <div class="ln-detail text-white mt-3">
+                                <p class="mb-0 text-medium">John Adams</p>
+                                <span class="ln-date text-light">posted on january 18, 2023</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </section>
+       
+        <section id="potensiDesa">
+            <div class="container">
+                <div class="content">
+                    <h2 class="title-section text-medium text-center">Potensi Desa</h2>
+                    <div class="slick-pd">
+                        <div class="card-pd d-md-flex align-items-md-center">
+                            <img src="images/berita-1-400.jpg" data-srcset="images/berita-1-400.jpg 400w, images/berita-1-800.jpg 800w" class="img-fluid img-pd">
+                            <div class="cardbody">
+                              <h5 class="card-title text-dark"><a href="detail.html">Card title</a></h5>  
+                              <p class="card-text">
+                                Wisata Telaga Biru Cigaru di Cisoka Tangerang Banten adalah salah satu tempat wisata yang berada di Jl. Tiga Raksa, Kecamatan Cisoka Kabupaten Tangerang, Banten, Indonesia.
+                              </p>
+                              <a href="detail.html" tabindex="-1" role="button" aria-disabled="true" class="btn btn-primary">Selengkapnya</a>
+                            </div>
+                        </div>
+                        <div class="card-pd d-md-flex align-items-md-center">
+                            <img src="images/berita-2-400.jpg" data-srcset="images/berita-2-400.jpg 400w, images/berita-2-800.jpg 800w" class="img-fluid img-pd">
+                            <div class="cardbody">
+                                <h5 class="card-title"><a href="detail.html">Card title</a></h5>
+                              <p class="card-text">
+                                Cupcake ipsum dolor sit amet. Chocolate cake cake cake sugar plum chocolate cake cake bear claw gummi bears. Brownie soufflé muffin dessert chocolate cake cotton candy lemon drops carrot cake sugar plum.
+                              </p>
+                              <a href="detail.html" tabindex="-1" role="button" aria-disabled="true" class="btn btn-primary">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="mb-3">
+            <div class="container">
+                <div class="row mb-2 mb-md-5">
+                    <div class="col-md-8 d-flex flex-space-between align-items-center">
+                        <img src="images/logo-75.png" class="img-fluid me-3">
+                        <p class="pfooter">Jl. H. Somawinata No. 1 Kadu Agung<br>Kec. Tigaraksa Kabupaten Tangerang</p>
+                    </div>
+                    <div class="col-md-4 text-md-end">
+                        <ul class="medsos">
+                            <li>
+                                <a href="" target="_blank" class="medsos-fb"><span class="fab fa-facebook-f icon"></span></a></li>
+                            </li>
+                            <li>
+                                <a href="" target="_blank" class="medsos-twitter"><span class="fab fa-twitter icon"></span></a></li>
+                            </li>
+                            <li>
+                                <a href="" target="_blank" class="medsos-youtube"><span class="fab fa-youtube icon"></span></a></li>
+                            </li>
+                            <li>
+                                <a href="" target="_blank" class="medsos-ig"><span class="fab fa-instagram icon"></span></a></li>
+                            </li>
+                        </ul><!-- .social-nav -->
+                    </div>
+                </div>
+                <div class="copyright text-center pb-3">© 2022 Dinas Komunikasi dan Informatika Kabupaten Tangerang</div>
+            </div>
+        </footer>
+        <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script>  
+        <script type="text/javascript" src="js/popper.min.js"></script>  
+        <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="js/slick.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/lozad.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+    </body>
+</html>

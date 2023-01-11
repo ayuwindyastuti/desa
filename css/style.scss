@@ -782,17 +782,17 @@ section {
 .bg-content {
   background-color: $primaryColor;
   margin-top: 60px;
-  padding-top:24px;
+  padding:24px 0;
 }
 @media(min-width: 992px) {
   .bg-content {
-    padding-top: 48px;
+    padding: 48px 0;
   }
 }
 @media(min-width: 1200px) {
   .bg-content {
     margin-top: 100px;
-    padding-top: 64px;
+    padding: 64px 0;
   }
 }
 .form-pilihDesa {

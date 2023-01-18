@@ -1,11 +1,4 @@
-// lazyload
-const observer = lozad('.lozad', {
-	loaded: function(el) {
-        // Custom implementation on a loaded element
-        el.classList.add('loaded');
-        console.log('loading element');
-    }
-});
+
 
 $(document).ready(function() {
 

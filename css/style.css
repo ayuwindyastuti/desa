@@ -44,6 +44,7 @@ body {
 }
 a {
   text-decoration: none;
+  color: #000;
 }
 a:hover {
   filter: opacity(80%);
@@ -445,12 +446,12 @@ label,
   }
 }
 section {
-  margin: 48px 0;
+  padding: 48px 0;
 }
 
 @media (min-width: 1200px) {
   section {
-    margin: 82px 0;
+    padding: 82px 0;
   }
 }
 .content {
@@ -698,6 +699,7 @@ section {
 .masthead2 {
   background: linear-gradient(189deg, rgb(238, 218, 253) 19%, rgb(237, 230, 242) 71%, rgb(243, 203, 238) 96%);
   height: 100vh;
+  margin-bottom: 48px;
 }
 .masthead2 .container {
   position: relative;
@@ -723,6 +725,7 @@ section {
 @media (min-width: 1200px) {
   .masthead2 {
     padding-top: 120px !important;
+    margin-bottom: 82px;
   }
 }
 .carousel-slide {
@@ -788,11 +791,4 @@ section {
 }
 .trending-wrap .label-wrap .icon:before {
   margin-right: 10px;
-}/*# sourceMappingURL=style.css.map */dding: 10px;
-  width: auto;
-  display: block;
-}
-
-.trending-wrap .label-wrap .icon:before {
-  margin-right: 10px;
-}
+}/*# sourceMappingURL=style.css.map */

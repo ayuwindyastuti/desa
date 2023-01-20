@@ -14,9 +14,10 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
         <!-- Core theme CSS (includes Bootstrap)-->
+       <link href="css/slick.css" rel="stylesheet">
+       <link href="css/slick-theme.css" rel="stylesheet">
         <link href="css/bootstrap.min.css" rel="stylesheet" >
-        <link href="css/style.css" rel="stylesheet" type="text/css">
-        
+        <link href="css/style.css" rel="stylesheet" type="text/css">        
     </head>
     <body>
         <!-- Navigation-->
@@ -44,7 +45,7 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav ms-auto my-2 my-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current= "page" href="desa.html">
+                                <a class="nav-link active" aria-current= "page" href="desa.html">
                                     <span class="text">Beranda</span>
                                 </a>
                             </li>
@@ -103,7 +104,7 @@
                             </li>
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link active dropdown-toggle" id="dropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#"><span class="text">data desa</span></a>
+                                <a class="nav-link dropdown-toggle" id="dropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#"><span class="text">data desa</span></a>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">          
                                     <li><a class="dropdown-item" href="anggarandesa.html">laporan anggaran</a></li>
                                     <li><a class="dropdown-item" href="#">dokumen</a></li>
@@ -120,52 +121,31 @@
             </div>
         </nav>
         
-       <section id="anggaranDesa" class="bg-content vh-100">
+       <section id="potensiDesa" class="bg-content vh-100">
             <div class="container">
-                <div class="body-content text-center">
-                    <h2 class="title-section text-bold text-white">data anggaran desa sukatani</h2>
-                    <div class="row">
-                        <table class="table bg-white text-center align-middle mx-auto w-auto">
-                            <thead class="table-light">
-                                <tr>
-                                    <th scope="col">No</th>
-                                    <th scope="col">Nama</th>
-                                    <th scope="col">Tahun</th>
-                                    <th scope="col">SKPD</th>
-                                    <th scope="col">Download Dokumen</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th scope="row">1</th>
-                                    <td>APBDes</td>
-                                    <td>2022</td>
-                                    <td>Desa Sukatani</td>
-                                    <td><button type="button" class="btn btn-blue text-white">Download</button></td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">2</th>
-                                    <td>APBDes</td>
-                                    <td>2022</td>
-                                    <td>Desa Sukatani</td>
-                                    <td><button type="button" class="btn btn-blue text-white">Download</button></td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">3</th>
-                                    <td>APBDes</td>
-                                    <td>2022</td>
-                                    <td>Desa Sukatani</td>
-                                    <td><button type="button" class="btn btn-blue text-white">Download</button></td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">4</th>
-                                    <td>APBDes</td>
-                                    <td>2022</td>
-                                    <td>Desa Sukatani</td>
-                                    <td><button type="button" class="btn btn-blue text-white">Download</button></td>
-                                </tr>
-                            </tbody>
-                        </table>
+                <div class="body-content">
+                    <h2 class="title-section text-bold text-white text-center">potensi desa</h2>
+                    <div class="slick-pd pd-white">
+                        <div class="card-pd d-md-flex align-items-md-center">
+                            <img src="images/berita-1-400.jpg" data-srcset="images/berita-1-400.jpg 400w, images/berita-1-800.jpg 800w" class="img-fluid img-pd">
+                            <div class="cardbody">
+                              <h5 class="card-title mt-2"><a href="detaildesa.html">Card title</a></h5>
+                              <p class="card-text">
+                                Wisata Telaga Biru Cigaru di Cisoka Tangerang Banten adalah salah satu tempat wisata yang berada di Jl. Tiga Raksa, Kecamatan Cisoka Kabupaten Tangerang, Banten, Indonesia.
+                              </p>
+                              <a href="detaildesa.html" tabindex="-1" role="button" aria-disabled="true" class="btn btn-primary">Selengkapnya</a>
+                            </div>
+                        </div>
+                        <div class="card-pd d-md-flex align-items-md-center">
+                            <img src="images/berita-2-400.jpg" data-srcset="images/berita-2-400.jpg 400w, images/berita-2-800.jpg 800w" class="img-fluid img-pd">
+                            <div class="cardbody">
+                              <h5 class="card-title mt-2"><a href="detaildesa.html">Card title</a></h5>
+                              <p class="card-text">
+                                Cupcake ipsum dolor sit amet. Chocolate cake cake cake sugar plum chocolate cake cake bear claw gummi bears. Brownie soufflé muffin dessert chocolate cake cotton candy lemon drops carrot cake sugar plum. Lollipop sesame snaps soufflé chocolate bar gingerbread croissant tootsie roll.
+                              </p>
+                              <a href="detaildesa.html" tabindex="-1" role="button" aria-disabled="true" class="btn btn-primary">Selengkapnya</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

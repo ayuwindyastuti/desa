@@ -44,6 +44,7 @@ body {
 }
 a {
   text-decoration: none;
+  color: #000;
   &:hover {
     filter: opacity(80%);
   }
@@ -434,11 +435,11 @@ label,
   }
 }
 section {
-  margin: 48px 0;
+  padding: 48px 0;
 }
 @media(min-width: 1200px) {
   section {
-    margin: 82px 0;
+    padding: 82px 0;
   }
 }
 .content {
@@ -698,6 +699,7 @@ section {
 .masthead2 {
   background:$gradientColor;
   height: 100vh;
+  margin-bottom: 48px;
   .container {
     position: relative;
     height: 100%;
@@ -726,6 +728,7 @@ section {
 @media (min-width: 1200px) {
   .masthead2 {
     padding-top: 120px !important;
+    margin-bottom: 82px;
   }
 }
 

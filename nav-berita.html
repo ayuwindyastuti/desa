@@ -449,6 +449,25 @@
                                                     </div>
             
                                                 </div>
+                                                <nav aria-label="Page navigation example">
+                                                    <ul class="pagination justify-content-center mt-0">
+                                                        <li class="page-item">
+                                                            <a class="page-link border-0" href="#" aria-label="Previous">
+                                                                <span aria-hidden="true">&laquo;</span>
+                                                                <span class="sr-only">Previous</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="page-item"><a class="page-link border-0" href="#">1</a></li>
+                                                        <li class="page-item"><a class="page-link border-0" href="#">2</a></li>
+                                                        <li class="page-item"><a class="page-link border-0" href="#">3</a></li>
+                                                        <li class="page-item">
+                                                            <a class="page-link border-0" href="#" aria-label="Next">
+                                                              <span aria-hidden="true">&raquo;</span>
+                                                              <span class="sr-only">Next</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </nav>
                                             </div>
                                             <div class="sidebar_wrapper ps-md-4 ps-lg-0 pe-md-2">
                                                 <div class="sidebar">
@@ -645,12 +664,6 @@
                     return false;
                 });
 
-                jQuery(window).resize(function () {
-                    var gridSize = carouselGetGridSize();
-
-                    flexslider.vars.minItems = gridSize;
-                    flexslider.vars.maxItems = gridSize;
-                });
             });
         </script>
         <script>

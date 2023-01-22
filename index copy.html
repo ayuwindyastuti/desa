@@ -14,17 +14,11 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
         <!-- Core theme CSS (includes Bootstrap)-->
+       <link href="css/slick.css" rel="stylesheet">
+       <link href="css/slick-theme.css" rel="stylesheet">
         <link href="css/bootstrap.min.css" rel="stylesheet" >
         <link href="css/style.css" rel="stylesheet" type="text/css">
         
-        <link rel="stylesheet" href="css/animation.css" type="text/css" media="all" />
-        <link rel="stylesheet" href="css/ilightbox/ilightbox.css" type="text/css" media="all" />
-        <link rel="stylesheet" href="css/jqueryui/custom.css" type="text/css" media="all" />
-        <link rel="stylesheet" href="js/plugins/flexslider/flexslider.css" type="text/css" media="all" />
-        <link rel="stylesheet" href="css/tooltipster.css" type="text/css" media="all" />
-        <link rel="stylesheet" href="css/stylenew.css" type="text/css" media="all" />
-        <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="all" />
-        <link rel="stylesheet" href="css/grid.css" type="text/css" media="all" />
     </head>
     <body>
         <!-- Navigation-->
@@ -114,9 +108,9 @@
 
         <section id="dataWilayah">
             <div class="container">
-                <div class="content text-center">
-                    <h1 class="title-section text-medium mb-lg-5 text-white text-bold">Data Administrasi Wilayah</h1>
-                    <div class="row justify-content-center g-xl-5 text-center text-white">
+                <div class="content text-center text-white">
+                    <h1 class="title-section text-medium mb-lg-5">Data Administrasi Wilayah</h1>
+                    <div class="row justify-content-center g-xl-5 text-center">
                         <div class="col-3">
                             <img src="images/icon-daerah.png">
                             <p class="desc">959,6 Km2</p>
@@ -138,109 +132,87 @@
             </div>    
         </section>
 
-        <section id="berita"> 
+        <section id="berita" class="bg-content">
             <div class="container">
                 <div class="body-content">
-                    <h2 class="title-section text-medium text-center text-bold">Berita Terkini</h2>
-                    <div class="ln-wrapper d-md-flex">
-                        <div class="ln-list">
-                            <div class="ln-img">
-                                <a href="detail.html"><img src="images/berita-1-800.jpg"></a>
-                            </div>
-                            <div class="ln-detail-wrapper bg-white pt-3">
-                                <div class="ln-txt">
-                                    <h3>
-                                        <a href="detail.html">Gingerbread icing gummi bears tootsie roll carrot</a>
-                                    </h3>
-                                </div>
-                                <div class="ln-detail mt-2">
-                                    <span class="ln-date text-light">  january 18, 2023</span>
-                                </div>
+                    <h2 class="title-section text-medium text-center text-white">Berita Terkini</h2>
+                    <div class="slick-news card-deck">
+                        <div class="card">
+                            <img src="images/berita-1-800.jpg" data-srcset="images/berita-1-400.jpg 400w, images/berita-1-800.jpg 800w" class="card-img-top">
+                            <div class="card-body">
+                              <h5 class="card-title"><a href="detail.html">Card title Some quick example text to build Some quick example text to build</a></h5>
+                              <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <p class="card-text text-dark text-end">17 agustus 1945</p>
                             </div>
                         </div>
-                        <div class="ln-list">
-                            <div class="ln-img">
-                                <a href="detail.html"><img src="images/berita-1-800.jpg"></a>
-                            </div>
-                            <div class="ln-detail-wrapper bg-white pt-3">
-                                <div class="ln-txt">
-                                    <h3>
-                                        <a href="detail.html">Gingerbread icing gummi bears tootsie roll carrot</a>
-                                    </h3>
-                                </div>
-                                <div class="ln-detail mt-2">
-                                    <span class="ln-date text-light">  january 18, 2023</span>
-                                </div>
+                        <div class="card">
+                            <img src="images/berita-2-400.jpg" data-srcset="images/berita-2-400.jpg 400w, images/berita-2-800.jpg 800w" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="detail.html">Card title</a></h5>
+                                <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p class="card-text text-dark text-end">17 agustus 1945</p>
                             </div>
                         </div>
-                        <div class="ln-list">
-                            <div class="ln-img">
-                                <a href="detail.html"><img src="images/berita-1-800.jpg"></a>
+                        <div class="card">
+                            <img src="images/berita-3-400.jpg" data-srcset="images/berita-3-400.jpg 400w, images/berita-3-800.jpg 800w" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="detail.html">Card title</a></h5>
+                                <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p class="card-text text-dark text-end">17 agustus 1945</p>
                             </div>
-                            <div class="ln-detail-wrapper bg-white pt-3">
-                                <div class="ln-txt">
-                                    <h3>
-                                        <a href="detail.html">Gingerbread icing gummi bears tootsie roll carrot</a>
-                                    </h3>
-                                </div>
-                                <div class="ln-detail mt-2">
-                                    <span class="ln-date text-light">  january 18, 2023</span>
-                                </div>
+                        </div>
+                        <div class="card">
+                            <img src="images/berita-4-400.jpg" data-srcset="images/berita-4-400.jpg 400w, images/berita-4-800.jpg 800w" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="detail.html">Card title</a></h5>
+                                <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p class="card-text text-dark text-end">17 agustus 1945</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="images/berita-5-400.jpg" data-srcset="images/berita-5-400.jpg 400w, images/berita-5-800.jpg 800w" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="detail.html">Card title</a></h5>
+                                <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p class="card-text text-dark text-end">17 agustus 1945</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="images/berita-6-400.jpg" data-srcset="images/berita-6-400.jpg 400w, images/berita-6-800.jpg 800w" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="detail.html">Card title</a></h5>
+                                <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p class="card-text text-dark text-end">17 agustus 1945</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div> 
+            </div>
        </section>
        
         <section id="potensiDesa">
             <div class="container">
-                <h2 class="title-section text-medium text-center text-bold">Potensi Desa</h2>
-                <div class="slick-pd">
-                    <div class="ln-wrapper d-md-flex">
-                        <div class="ln-list">
-                            <div class="ln-img">
-                                <a href="detail.html"><img src="images/berita-1-800.jpg"></a>
-                            </div>
-                            <div class="ln-detail-wrapper pt-3">
-                                <div class="ln-txt">
-                                    <h3>
-                                        <a href="detail.html">Gingerbread icing gummi bears tootsie roll carrot</a>
-                                    </h3>
-                                </div>
-                                <div class="ln-detail mt-2">
-                                    <span class="ln-date text-light">  january 18, 2023</span>
-                                </div>
+                <div class="content">
+                    <h2 class="title-section text-medium text-center">Potensi Desa</h2>
+                    <div class="slick-pd">
+                        <div class="card-pd d-md-flex align-items-md-center">
+                            <img src="images/berita-1-400.jpg" data-srcset="images/berita-1-400.jpg 400w, images/berita-1-800.jpg 800w" class="img-fluid img-pd">
+                            <div class="cardbody">
+                              <h5 class="card-title text-dark"><a href="detail.html">Card title</a></h5>  
+                              <p class="card-text">
+                                Wisata Telaga Biru Cigaru di Cisoka Tangerang Banten adalah salah satu tempat wisata yang berada di Jl. Tiga Raksa, Kecamatan Cisoka Kabupaten Tangerang, Banten, Indonesia.
+                              </p>
+                              <a href="detail.html" tabindex="-1" role="button" aria-disabled="true" class="btn btn-primary">Selengkapnya</a>
                             </div>
                         </div>
-                        <div class="ln-list">
-                            <div class="ln-img">
-                                <a href="detail.html"><img src="images/berita-1-800.jpg"></a>
-                            </div>
-                            <div class="ln-detail-wrapper pt-3">
-                                <div class="ln-txt">
-                                    <h3>
-                                        <a href="detail.html">Gingerbread icing gummi bears tootsie roll carrot</a>
-                                    </h3>
-                                </div>
-                                <div class="ln-detail mt-2">
-                                    <span class="ln-date text-light">  january 18, 2023</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="ln-list">
-                            <div class="ln-img">
-                                <a href="detail.html"><img src="images/berita-1-800.jpg"></a>
-                            </div>
-                            <div class="ln-detail-wrapper pt-3">
-                                <div class="ln-txt">
-                                    <h3>
-                                        <a href="detail.html">Gingerbread icing gummi bears tootsie roll carrot</a>
-                                    </h3>
-                                </div>
-                                <div class="ln-detail mt-2">
-                                    <span class="ln-date text-light">  january 18, 2023</span>
-                                </div>
+                        <div class="card-pd d-md-flex align-items-md-center">
+                            <img src="images/berita-2-400.jpg" data-srcset="images/berita-2-400.jpg 400w, images/berita-2-800.jpg 800w" class="img-fluid img-pd">
+                            <div class="cardbody">
+                                <h5 class="card-title"><a href="detail.html">Card title</a></h5>
+                              <p class="card-text">
+                                Cupcake ipsum dolor sit amet. Chocolate cake cake cake sugar plum chocolate cake cake bear claw gummi bears. Brownie soufflé muffin dessert chocolate cake cotton candy lemon drops carrot cake sugar plum.
+                              </p>
+                              <a href="detail.html" tabindex="-1" role="button" aria-disabled="true" class="btn btn-primary">Selengkapnya</a>
                             </div>
                         </div>
                     </div>
@@ -276,7 +248,13 @@
             </div>
         </footer>
         <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script>  
+        <script type="text/javascript" src="js/popper.min.js"></script>  
+        <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="js/slick.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/lozad.js"></script>
         <script type="text/javascript" src="js/custom.js"></script>
     </body>
 </html>

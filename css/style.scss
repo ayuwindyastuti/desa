@@ -14,6 +14,9 @@ $gradientColor: linear-gradient(189deg, rgba(238,218,253,1) 19%, rgba(237,230,24
 .bg-shadow {
   box-shadow: 0 5px 5px rgba(0,0,0,0.15);
 }
+.bg-transparent {
+  background-color: transparent!important;
+}
 * {
   box-sizing: border-box;
 }
@@ -809,4 +812,10 @@ section {
       margin-right: 10px;
     }
   }
+}
+
+
+.fa.fa-search{
+  color: $primaryColor;
+  font-size: 1.3rem;
 }

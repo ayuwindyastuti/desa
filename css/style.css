@@ -11,6 +11,10 @@
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
 }
 
+.bg-transparent {
+  background-color: transparent !important;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -806,4 +810,9 @@ section {
 }
 .trending-wrap .label-wrap .icon:before {
   margin-right: 10px;
+}
+
+.fa.fa-search {
+  color: #9900FF;
+  font-size: 1.3rem;
 }/*# sourceMappingURL=style.css.map */

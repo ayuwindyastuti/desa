@@ -815,4 +815,45 @@ section {
 .fa.fa-search {
   color: #9900FF;
   font-size: 1.3rem;
+}
+
+.hoverable {
+  position: relative;
+  overflow: hidden;
+}
+
+.hoverable img {
+  width: 100%;
+  max-height: 100%;
+  vertical-align: bottom;
+  border-radius: 5px;
+}
+
+.hoverable p {
+  position: absolute;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 500ms;
+  font-size: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.hoverable:hover p {
+  opacity: 1;
+}
+
+#black p {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 24px;
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */

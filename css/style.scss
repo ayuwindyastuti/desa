@@ -489,22 +489,22 @@ section {
   }
 }
 
-.slick-pd {
-  background: linear-gradient(270deg, rgba(224,205,235,1) 0%, rgba(240,240,240,1) 55%);
-  padding: 24px 20px 12px 20px;
-  border-radius: 25px;
-}
+// .slick-pd {
+//   // background: linear-gradient(270deg, rgba(224,205,235,1) 0%, rgba(240,240,240,1) 55%);
+// //   padding: 24px 20px 12px 20px;
+// //   border-radius: 25px;
+// // }
 
-@media (min-width: 992px) {
-  .slick-pd {
-    padding: 28px 32px 28px;
-  }
-}
-@media (min-width: 1200px) {
-  .slick-pd {
-    padding: 48px 48px 0 48px;
-  }
-}
+// @media (min-width: 992px) {
+//   .slick-pd {
+//     padding: 28px 32px 28px;
+//   }
+// }
+// @media (min-width: 1200px) {
+//   .slick-pd {
+//     padding: 48px 48px 0 48px;
+//   }
+// }
 
 .copyright {
   font-size: 0.75em;
@@ -774,9 +774,14 @@ section {
   }
 }
 #potensiDesa {
+  background: linear-gradient(270deg, rgba(224,205,235,1) 0%, rgba(240,240,240,1) 55%);
+  margin-bottom: 48px;
   .pd-white {
     background: none;
     background-color: #E5E5E5!important;
+  }
+  @media (min-width: 1200px) {
+    margin-bottom: 82px;
   }
 }
 .pdfobject-container { 
@@ -862,3 +867,25 @@ section {
 }
 
 
+.img-potensi {
+  img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    @media(min-width: 768px) {
+      height: 400px;
+    }
+    @media(min-width: 1200px) {
+      height: 600px;
+    }
+  }
+  
+}
+
+.badge {
+  border-radius: 0!important;
+  font-size: unset;
+  h4 {
+    letter-spacing: 2px;
+  }
+}

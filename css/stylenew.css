@@ -112,7 +112,7 @@ hr
 {
     height: 1px;
     border: 0;
-    border-top: 1px solid #ebebeb;
+    border-top: 2px solid #ebebeb;
     background: transparent;
     margin: auto;
     width: 100%;
@@ -2146,7 +2146,7 @@ body.page-template-blog_f-php .post_excerpt_full
 
 .post_header:not(.single) h5, body.single-post .post_header_title h1
 {
-    font-size: 36px;
+    /* font-size: 36px; */
     line-height: 1.2;
 }
 
@@ -2155,11 +2155,11 @@ body.page-template-blog_f-php .post_excerpt_full
     font-size: 26px;
 }
 
-.post_header.search h5
+/* .post_header.search h5
 {
     font-size: 24px;
     margin-bottom: 5px;
-}
+} */
 
 .two_cols.mixed .post_header h5
 {

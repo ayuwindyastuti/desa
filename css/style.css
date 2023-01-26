@@ -499,22 +499,6 @@ section {
   }
 }
 
-.slick-pd {
-  background: linear-gradient(270deg, rgb(224, 205, 235) 0%, rgb(240, 240, 240) 55%);
-  padding: 24px 20px 12px 20px;
-  border-radius: 25px;
-}
-
-@media (min-width: 992px) {
-  .slick-pd {
-    padding: 28px 32px 28px;
-  }
-}
-@media (min-width: 1200px) {
-  .slick-pd {
-    padding: 48px 48px 0 48px;
-  }
-}
 .copyright {
   font-size: 0.75em;
 }
@@ -770,9 +754,18 @@ section {
   z-index: 2;
 }
 
+#potensiDesa {
+  background: linear-gradient(270deg, rgb(224, 205, 235) 0%, rgb(240, 240, 240) 55%);
+  margin-bottom: 48px;
+}
 #potensiDesa .pd-white {
   background: none;
   background-color: #E5E5E5 !important;
+}
+@media (min-width: 1200px) {
+  #potensiDesa {
+    margin-bottom: 82px;
+  }
 }
 
 .pdfobject-container {
@@ -856,4 +849,36 @@ section {
   background: rgba(0, 0, 0, 0.8);
   padding: 24px;
   text-transform: uppercase;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.img-potensi img {
+  display: block;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (min-width: 768px) {
+  .img-potensi img {
+    height: 400px;
+  }
+}
+@media (min-width: 1200px) {
+  .img-potensi img {
+    height: 600px;
+  }
+}
+
+.badge {
+  border-radius: 0 !important;
+  font-size: unset;
+}
+.badge h4 {
+  letter-spacing: 2px;
+}/*# sourceMappingURL=style.css.map */ {
+  border-radius: 0 !important;
+  font-size: unset;
+}
+
+.badge h4 {
+  letter-spacing: 2px;
+}

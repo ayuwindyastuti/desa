@@ -1,0 +1,466 @@
+{"type":"FeatureCollection","features":[{
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "kecamatan": "KRONJO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.42868041992188,
+          -6.084740662245471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "kecamatan": "GUNUNG KALER"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.37563705444336,
+          -6.104711520724399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "kecamatan": "KEMIRI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.46404266357422,
+          -6.096518437939034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "kecamatan": "MAUK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.51777267456055,
+          -6.069036559933633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "kecamatan": "RAJEG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.51485443115234,
+          -6.126047085365903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "kecamatan": "SUKADIRI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.56103134155273,
+          -6.085935520826552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "kecamatan": "PAKUHAJI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.60686492919922,
+          -6.074328210808074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "kecamatan": "TELUKNAGA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.66316986083984,
+          -6.040699739976602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "kecamatan": "KOSAMBI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6940689086914,
+          -6.068012363438504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "kecamatan": "SEPATAN TIMUR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.61287307739258,
+          -6.108637328497833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "kecamatan": "SEPATAN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.57991409301758,
+          -6.130655455448263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "kecamatan": "PASAR KEMIS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.55553817749023,
+          -6.164960957140216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "kecamatan": "SINDANG JAYA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.50146484374999,
+          -6.1816862188683155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "kecamatan": "SUKAMULYA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.44018173217773,
+          -6.1502832521272754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "kecamatan": "KRESEK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4116859436035,
+          -6.132874286105464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "kecamatan": "JAYANTI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.39795303344727,
+          -6.215476459274673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "kecamatan": "BALARAJA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.43537521362303,
+          -6.21888949438952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "kecamatan": "CISOKA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.41838073730469,
+          -6.2687172779664415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "kecamatan": "SOLEAR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4161491394043,
+          -6.324511918512159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "kecamatan": "TIGARAKSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.48344039916992,
+          -6.2757132646221105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "kecamatan": "JAMBE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.50060653686523,
+          -6.332701451943099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "kecamatan": "PANONGAN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.5315055847168,
+          -6.2908993512548825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "kecamatan": "CIKUPA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.51948928833008,
+          -6.23117623728013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "kecamatan": "CURUG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.56532287597656,
+          -6.253701185015839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "kecamatan": "LEGOK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.56858444213867,
+          -6.315981016562039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "kecamatan": "KELAPA DUA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.61544799804688,
+          -6.233565292786006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "kecamatan": "PAGEDANGAN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.61664962768555,
+          -6.312056754443322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "kecamatan": "CISAUK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.62574768066405,
+          -6.353857144970429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "kecamatan": "MEKAR BARU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.3751220703125,
+          -6.047015906849225
+        ]
+      }
+    }
+  ]
+}

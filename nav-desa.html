@@ -16,6 +16,8 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/bootstrap.min.css" rel="stylesheet" >
         <link href="css/style.css" rel="stylesheet" type="text/css">        
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css"></style>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
     </head>
     <body>
         <!-- Navigation-->
@@ -63,31 +65,109 @@
             </div>
         </nav>
         
-        <section id="pilihDesa" class="bg-content vh-100" style="border-top: 1px solid #ebebeb; border-bottom: 1px solid #ebebeb;">
+        <section id="pilihDesa" class="bg-content bg-white" style="border-top: 1px solid #ebebeb; border-bottom: 1px solid #ebebeb;">
             <div class="container">
-                <div class="body-content text-center">
-                    <h2 class="title-section text-white text-bold">Pilih Desa</h2>
-                    <form method="#" action="#" class="form-pilihDesa rounded mx-auto">
-                        <div class="form-group">
-                            <label for="kec" class="form-label text-medium">Pilih Nama Kecamatan</label>
-                            <select class="form-select">
-                                <option>Balaraja</option>
-                                <option>select</option>
-                                <option>select</option>
-                                <option>select</option>
-                              </select>
+                <div class="body-content">
+                    <h2 class="title-section text-bold text-center">Cari Desa</h2>
+                    <div class="row g-md-3 mt-3 mt-lg-5 bg-shadow-2 p-md-3 p-xl-5">
+                        <div class="col-lg-6 pe-lg-5">
+                            <p class="mb-5 w-75">Klik pada desa yang dituju atau ketik desa pada kolom pencarian dibawah</p>
+                            <div class="table-responsive">
+                                
+                                <table class="table table-hover table-borderless pt-4 dataTable text-capitalize mb-2" width="100%" id="myTable">
+                                    <thead>
+                                    <tr>
+                                        <th class="no-sort">No</th>
+                                        <th>Kecamatan</th>
+                                        <th>Desa</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Cisoka</td>
+                                        <td><a href="desa.html" class="text-purple text-decoration-underline">Cisoka</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Solear</td>
+                                        <td><a href="desa.html" class="text-purple text-decoration-underline">Cirendeu</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>tigaraksa</td>
+                                        <td><a href="desa.html" class="text-purple text-decoration-underline">Bantar Panjang</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Jambe</td>
+                                        <td><a href="desa.html" class="text-purple text-decoration-underline">Jambe</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Jambe</td>
+                                        <td><a href="desa.html" class="text-purple text-decoration-underline">kutruk</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Jambe</td>
+                                        <td><a href="desa.html" class="text-purple text-decoration-underline">mekarsari</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Jambe</td>
+                                        <td><a href="desa.html" class="text-purple text-decoration-underline">taban</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>cikupa</td>
+                                        <td><a href="desa.html" class="text-purple text-decoration-underline">bitung jaya</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>cikupa</td>
+                                        <td><a href="desa.html" class="text-purple text-decoration-underline">bojong</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>cikupa</td>
+                                        <td><a href="desa.html" class="text-purple text-decoration-underline">cibadak</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>cikupa</td>
+                                        <td><a href="desa.html" class="text-purple text-decoration-underline">talaga</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>12</td>
+                                        <td>cikupa</td>
+                                        <td><a href="desa.html" class="text-purple text-decoration-underline">pasir jaya</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>13</td>
+                                        <td>cikupa</td>
+                                        <td><a href="desa.html" class="text-purple text-decoration-underline">talaga sari</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>14</td>
+                                        <td>cikupa</td>
+                                        <td><a href="desa.html" class="text-purple text-decoration-underline">dukuh</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>15</td>
+                                        <td>kelapa dua</td>
+                                        <td><a href="desa.html" class="text-purple text-decoration-underline">curug sangereng</a></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="desa" class="form-label text-medium">Pilih Nama Desa</label>
-                            <select class="form-select">
-                                <option>Sentul</option>
-                                <option>select</option>
-                                <option>select</option>
-                                <option>select</option>
-                              </select>
+                        <div class="col-lg-6">
+                            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253863.54606445247!2d106.39250107535985!3d-6.181866215806077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ffb6b0ad7ae3%3A0x301576d14feb9b0!2sTangerang%20Regency%2C%20Banten!5e0!3m2!1sen!2sid!4v1675152527321!5m2!1sen!2sid" width="100%" height="100%" style="min-height: 300px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                            <div class="map-small" id="map-main"></div>
                         </div>
-                        <a href="desa.html" tabindex="-1" role="button" aria-disabled="true" class="btn btn-primary text-bold">Pilih Desa</a>
-                    </form>
+                    </div>
+                    
                 </div>
             </div>
         </section>
@@ -125,5 +205,37 @@
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/lozad.js"></script>
         <script type="text/javascript" src="js/custom.js"></script>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+     
+        <script type="text/javascript" src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+        <script type="text/javascript" src="js/peta.js"></script>
+        <script>
+            var map ;
+            var infobox;
+            var infowindows = new Array();
+            
+            peta_map();
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("#myInput").on("keyup", function() {
+                    var value = $(this).val().toLowerCase();
+                    $("#myTable tr").filter(function() {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                    });
+                });
+            });
+
+            $(document).ready(function(){
+                $('#myTable').dataTable({
+                    "order": [],
+                    "columnDefs": [{ 
+                        "targets": 'no-sort',
+                        "orderable": false
+                    }]
+                });
+            });
+        </script>
     </body>
 </html>

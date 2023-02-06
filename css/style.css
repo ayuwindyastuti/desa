@@ -908,7 +908,7 @@ section.leaflet-control-layers-list {
 }
 
 .ex img {
-  height: 100px;
+  height: 200px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -916,7 +916,7 @@ section.leaflet-control-layers-list {
 }
 
 .sm-img img {
-  height: 50px !important;
+  height: 100px !important;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;

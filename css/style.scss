@@ -918,30 +918,30 @@ section.leaflet-control-layers-list {
   width:auto !important;
 }
 .ex img {
-  height: 200px;
+  height: 150px;
   width: 100%;
   object-fit: cover;
   position:static;
 }
 .sm-img img{
-  height: 100px !important;
+  height: 75px !important;
   width: 100%;
   object-fit: cover;
 }
 
 @media (min-width:768px) {
   .ex img {
-    height: 200px;
+    height: 300px;
   }
   .sm-img img {
-    height: 100px !important;
+    height: 150px !important;
   }
 }
-@media (min-width:1200px) {
-  .ex img {
-    height: 400px;
-  }
-  .sm-img img {
-    height: 200px !important;
-  }
-}
+// @media (min-width:1200px) {
+//   .ex img {
+//     height: 600px;
+//   }
+//   .sm-img img {
+//     height: 3 00px !important;
+//   }
+// }

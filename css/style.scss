@@ -32,10 +32,10 @@ body {
 }
 body {
   font-family: 'Poppins', sans-serif;
-  font-size: 1em;
   overflow-x: hidden;
   font-size: 87.5%;
   line-height: 1.3em;
+  color: $darkGreyColor;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-overflow-scrolling: touch;
@@ -45,7 +45,7 @@ body {
     font-size: 100%;
   }
   p {
-    font-size: 1.25em;
+  
     line-height: 1.25em;
   }
 }
@@ -133,6 +133,12 @@ label,
   text-transform: capitalize;
   font-size: 1.625em;
   line-height: 1.38461538461538em;
+  font-weight: 500;
+}
+@media(min-width: 992px) {
+  .title-section {
+    font-size: 2.25em;
+  }
 }
 .text-white {
   color: #fff;
@@ -303,7 +309,7 @@ label,
 }
 @media (min-width: 992px) {
   .big-title {
-    font-size: 2em !important;
+    font-size: 2.25em !important;
     margin-bottom: 0.75em;
   }
   .big-desc {

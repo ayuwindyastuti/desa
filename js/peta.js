@@ -37,16 +37,16 @@ function peta_map()
     var batasKecamatan = L.geoJSON(null, {
       pane: "batas_kecamatan",
       style: function(feature) {
-        if(feature.properties.WARNA == "")
-            warna = '#eeeeee';
-        else
-            warna = feature.properties.WARNA;
+        
+        warna = '#989797';
+       
 
         return {
             fillColor: warna,
-            color: '#9900FF',
+            color: '#262626',
             weight: 0.5,
             opacity: 1,
+            fillOpacity: 1.0
           };
       },
       /* Highlight & Popup */
@@ -77,7 +77,7 @@ function peta_map()
       },
       onEachFeature: labelKecamatan,
       pointToLayer: markerKecamatan,
-    });
+    }).addTo(map);
 
     $.getJSON('js/KecamatanLabel.geojson', function(data) {
       if (jQuery.isEmptyObject(data)) {
@@ -105,19 +105,21 @@ function onEachFeature(feature, layer) {
             popupContent = res;
             
             if(feature.properties.WARNA == "")
-                warna = '#eeeeee';
+                warna = '#ebebeb';
             else
                 warna = feature.properties.WARNA;
     
             layer.on({
                 mouseover: function () {
                     this.setStyle({
-                        'fillColor': '#000',
+                        'fillColor': '#ffffff',
+                        fillOpacity: 1,
                     });
                 },
                 mouseout: function () {
                     this.setStyle({
-                        'fillColor': warna,
+                        'fillColor': '#989797',
+                        fillOpacity: 1,
                     });
                 },
                 click: function () {

@@ -5870,6 +5870,9 @@ ul.post_filter li a.selected {
     .ln-list img {
         height: 250px;
     }
+    .post-img img {
+        height: 80px;
+    }
 }
 
 .img-pot {

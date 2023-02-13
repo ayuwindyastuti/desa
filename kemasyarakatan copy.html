@@ -11,7 +11,6 @@
         <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
         <!-- Font Awesome icons (free version)-->
         <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet" />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -64,7 +63,7 @@
                             </li>
                             
                             <li class="nav-item dropdown ">
-                                <a href="#" id="menu" data-bs-toggle="dropdown" class="nav-link dropdown-toggle" data-bs-display="static"><span class="text">Kelembagaan</span></a>
+                                <a href="#" id="menu" data-bs-toggle="dropdown" class="nav-link active dropdown-toggle" data-bs-display="static"><span class="text">Kelembagaan</span></a>
                                 <ul class="dropdown-menu multi-drop">
                                     <li class="dropdown-submenu dropdown">
                                         <a href="#" data-bs-toggle="dropdown" class="dropdown-item dropdown-toggle">perangkat desa</a>
@@ -104,7 +103,7 @@
                             </li>
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link active dropdown-toggle" id="dropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#"><span class="text">data desa</span></a>
+                                <a class="nav-link dropdown-toggle" id="dropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#"><span class="text">data desa</span></a>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">          
                                     <li><a class="dropdown-item" href="anggarandesa.html">laporan anggaran</a></li>
                                     <li><a class="dropdown-item" href="#">dokumen</a></li>
@@ -121,54 +120,12 @@
             </div>
         </nav>
         
-       <section id="anggaranDesa" class="bg-content bg-white" style="border-top: 1px solid #ebebeb; border-bottom: 1px solid #ebebeb;">
+       <section id="profilDesa" class="bg-content">
             <div class="container">
-                <div class="body-content text-center">
-                    <h2 class="title-section text-bold mb-5">data anggaran desa sukatani</h2>
-                    <div class="row">
-                        <div class="table-responsive">
-                            <table class="table table-hover table-borderless bg-white text-center align-middle mx-auto w-auto">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">No</th>
-                                        <th scope="col">Nama</th>
-                                        <th scope="col">Tahun</th>
-                                        <th scope="col">SKPD</th>
-                                        <th scope="col">Download Dokumen</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>APBDes</td>
-                                        <td>2022</td>
-                                        <td>Desa Sukatani</td>
-                                        <td><a href="#"><i class="fa fa-download text-purple logo"></i></a></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td>APBDes</td>
-                                        <td>2022</td>
-                                        <td>Desa Sukatani</td>
-                                        <td><a href="#"><i class="fa fa-download text-purple logo"></i></a></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td>APBDes</td>
-                                        <td>2022</td>
-                                        <td>Desa Sukatani</td>
-                                        <td><a href="#"><i class="fa fa-download text-purple logo"></i></a></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">4</th>
-                                        <td>APBDes</td>
-                                        <td>2022</td>
-                                        <td>Desa Sukatani</td>
-                                        <td><a href="#"><i class="fa fa-download text-purple logo"></i></a></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                <div class="body-content textjustify text-white">
+                    <h2 class="title-section text-bold text-center">RT / RW</h2>
+                    <div class="embed-responsive">
+                        <div id="pdfview"></div>
                     </div>
                 </div>
             </div>
@@ -202,11 +159,18 @@
         </div>
     </footer>
 
+    
+
     <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script>  
     <script type="text/javascript" src="js/popper.min.js"></script>  
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/lozad.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/pdfobject.js"></script>
+    <script>PDFObject.embed("assets/test.pdf", "#pdfview");</script>
     </body>
 </html>

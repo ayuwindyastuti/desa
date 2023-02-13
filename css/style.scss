@@ -649,9 +649,10 @@ section {
   width: 120px;
   height: 120px;
   line-height: 25px;
-  filter: grayscale(50%);
+  filter: grayscale(75%);
   &:hover {
     filter: unset;
+    cursor:pointer;
   }
   @media(min-width:992px) {
     width: 200px;
@@ -676,11 +677,6 @@ section {
   }
 }
 .carousel-inner {
-  height: 100vh;
-  img {
-    filter: brightness(65%);
-    
-  }
   .carousel-caption {
     top: 50%;
     transform: translateY(-50%);
@@ -731,11 +727,11 @@ section {
   -o-transition: all 350ms ease;
 }
 .team-name {
-  color: $primaryColor;
+
   text-transform: capitalize;
 }
 .team-desc {
-
+  color: $primaryColor;
   text-transform: capitalize;
 }
 .masthead2 {
@@ -782,16 +778,13 @@ section {
     .carousel-item {
       position: relative;
       height: 100%;
-      .img-mobile, .img-desktop {
+      .img-desktop {
         position: absolute;
         top: 0;
         right: 0;
         width: 100%;
         height: 100%;
         z-index: 1; 
-      }
-      .img-desktop {
-        z-index: 2;
       }
     }
   }
@@ -966,32 +959,21 @@ section.leaflet-control-layers-list {
   }
 }
 .logo {
-  position: relative;
-
-  &:before {
-    content: "\f105";
-    font-family: 'FontAwesome';
-    font-size: 12px;
-    position: absolute;
-    color: #fff;
-    top: 50%;
-    left: 50%;
-    width: 20px;
-    height: 20px;
-    background: $primaryColor;
-    display: block;
+  font-size: 1.5rem;
+}
+thead {
+  tr {
+    th {
+      background-color: $primaryColor !important;
+      color: #fff;
+      border: 1px solid white;
+      vertical-align: middle;
+    }
   }
 }
-// @media (min-width:1200px) {
-//   .ex img {
-//     height: 600px;
-//   }
-//   .sm-img img {
-//     height: 3 00px !important;
-//   }
-// }
-
-
+th,td {
+  padding: 10px!important;
+}
 .list-potensi {
   position: relative;
   display: block;
@@ -1006,17 +988,19 @@ section.leaflet-control-layers-list {
     opacity: 0;
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
+    left: 10px;
+    width: calc(100% - 20px);
     height: 100%;
     transition: opacity 0.7s;
-
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
     text-transform: uppercase;
     h3 {
       width: 100%;
+    }
+    button {
+      text-transform: capitalize;
     }
   }
   &:hover {
@@ -1032,6 +1016,10 @@ section.leaflet-control-layers-list {
     box-shadow: 10px 14px 20px 0px rgba(226,204,189,1);
     padding: 10px;
     margin: 5px;
+    .hover-potensi {
+      top:10px;
+      height: calc(100% - 20px);
+    }
     .img-1,
     .img-5 {
       width: 10%;

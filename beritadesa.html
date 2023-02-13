@@ -669,49 +669,7 @@
                 });
             });
         </script>
-        <script>
-            var flexslider;
-
-            function carouselGetGridSize() {
-                return window.innerWidth < 768 ? 1 : window.innerWidth < 900 ? 3 : 4;
-            }
-
-            jQuery(window).load(function () {
-                jQuery("#1654936620110643708").flexslider({
-                    animation: "slide",
-                    animationLoop: true,
-                    itemMargin: 30,
-                    itemWidth: 210,
-                    minItems: carouselGetGridSize(), // use function to pull in initial value
-                    maxItems: carouselGetGridSize(),
-                    directionNav: false,
-                    controlNav: false,
-                    smoothHeight: true,
-                    animationSpeed: 600,
-                    move: 1,
-                    start: function (slider) {
-                        flexslider = slider;
-                    },
-                });
-
-                jQuery("#carousel_prev1654936620110643708").on("click", function () {
-                    jQuery("#1654936620110643708").flexslider("prev");
-                    return false;
-                });
-
-                jQuery("#carousel_next1654936620110643708").on("click", function () {
-                    jQuery("#1654936620110643708").flexslider("next");
-                    return false;
-                });
-
-                jQuery(window).resize(function () {
-                    var gridSize = carouselGetGridSize();
-
-                    flexslider.vars.minItems = gridSize;
-                    flexslider.vars.maxItems = gridSize;
-                });
-            });
-        </script>
+        
         <script>
             jQuery(window).load(function () {
                 jQuery("#16549366201748552795").flexslider({

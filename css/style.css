@@ -70,6 +70,7 @@ a {
 
 a:hover {
   filter: opacity(80%);
+  color: unset;
 }
 
 h2 {
@@ -122,14 +123,6 @@ h6 {
 
 .btn-primary:hover {
   background-color: #9900FF;
-}
-
-.btn-blue {
-  background-color: #1E5AF9;
-}
-
-.btn-blue:hover {
-  background-color: #1E5AF9;
 }
 
 .btn-white {
@@ -714,6 +707,7 @@ section {
   height: 120px;
   line-height: 25px;
   filter: grayscale(75%);
+  box-shadow: 2px 5px 5px 5px #e2ccbd;
 }
 
 .img-profil:hover {

@@ -35,12 +35,17 @@
                 <a class="navbar-brand" href="index.html">
                 <img src="images/logo-75.png" srcset="images/logo-75.png 75w" alt="Desa Terpadu">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle = "offcanvas"
-                data-bs-target = "#offcanvasExample" aria-controls = "offcanvasExample">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+                <div class="nav-right d-flex">
+                    <button type="button" class="border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="fa fa-search"></i>
+                    </button>
+                    <button class="navbar-toggler pt-0" type="button" data-bs-toggle = "offcanvas"
+                    data-bs-target = "#offcanvasExample" aria-controls = "offcanvasExample">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
                 <div class="offcanvas offcanvas-start-lg" tabindex = "-1" id="offcanvasExample"
                 aria-labelledby = "offcanvasExampleLabel">
                    
@@ -124,11 +129,36 @@
                                     <span class="text">potensi</span>
                                 </a>
                             </li>
+                            <li class="nav-item d-none d-lg-block">
+                                <button type="button" class="border-0 bg-transparent ps-3 mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </nav>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header border-0">
+                  <h5 class="modal-title" id="exampleModalLabel">Apa yang ingin Anda cari?</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pt-0">
+                    <form action="search-desa.html" method="post">
+                        <div class="input-group">
+                            <input class="form-control rounded me-3" placeholder="Ketik disini..." type="text">
+                            <input type="button" class="rounded btn btn-primary text-capitalize" name="upload" value="Cari">
+                        </div>
+                        <!-- <button title="search" class="btn btn-primary" type="submit" data-toggle="modal" href="index.html">Cari</button> -->
+                    </form>
+                </div>
+              </div>
+            </div>
+        </div>
         
         <section id="potensi" class="bg-content bg-white" style="border-top: 1px solid #ebebeb; border-bottom: 1px solid #ebebeb;">
             <div class="container">
@@ -174,28 +204,28 @@
                             <img src="images/berita-1-800.jpg">
                             <div class="hover-potensi d-flex flex-wrap align-content-center justify-content-center">
                                 <h3>danau cigaru</h3>
-                                <button class="btn btn-primary" href="#">lihat</button>
+                                <button class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">lihat</button>
                             </div>
                         </div>      
                         <div class="list-potensi img-2">
                             <img src="images/berita-2-800.jpg">
                             <div class="hover-potensi d-flex flex-wrap align-content-center justify-content-center">
                                 <h3>danau cigaru</h3>
-                                <button class="btn btn-primary" href="#">lihat</button>
+                                <button class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">lihat</button>
                             </div>
                         </div> 
                         <div class="list-potensi img-3">
                             <img src="images/berita-3-800.jpg">
                             <div class="hover-potensi d-flex flex-wrap align-content-center justify-content-center">
                                 <h3>danau cigaru</h3>
-                                <button class="btn btn-primary" href="#">lihat</button>
+                                <button class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">lihat</button>
                             </div>
                         </div> 
                         <div class="list-potensi img-4">
                             <img src="images/berita-4-800.jpg">
                             <div class="hover-potensi d-flex flex-wrap align-content-center justify-content-center">
                                 <h3>danau cigaru</h3>
-                                <button class="btn btn-primary" href="#">lihat</button>
+                                <button class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">lihat</button>
                             </div>
                         </div>         
                         <div class="list-potensi img-5">
@@ -213,6 +243,19 @@
                             </div>
                         </div> 
                     </div>
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog bg-shadow2">
+                          <div class="modal-content bg-gradient" >
+                            <div class="modal-header" style="border: none;">
+                              <h3 class="modal-title text-uppercase" id="staticBackdropLabel">Danau cigaru</h3>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Carrot cake topping apple pie apple pie chocolate bar. Sweet roll tart tart muffin jelly oat cake. Dessert gingerbread jelly beans pudding pie. Shortbread dessert cotton candy cookie bonbon cake chupa chups dessert. Tiramisu sweet roll halvah bonbon sweet roll donut gummies bonbon. Ice cream powder chocolate jujubes bonbon candy liquorice. Ice cream pie pastry danish jelly brownie chocolate marzipan. Croissant lollipop macaroon chocolate cake donut pastry marzipan donut apple pie.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
 
                     <!-- <div class="row">
                     <ul class="pagination justify-content-center m-0">

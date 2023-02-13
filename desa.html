@@ -34,12 +34,17 @@
                 <a class="navbar-brand" href="index.html">
                 <img src="images/logo-75.png" srcset="images/logo-75.png 75w" alt="Desa Terpadu">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle = "offcanvas"
-                data-bs-target = "#offcanvasExample" aria-controls = "offcanvasExample">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+                <div class="nav-right d-flex">
+                    <button type="button" class="border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="fa fa-search"></i>
+                    </button>
+                    <button class="navbar-toggler pt-0" type="button" data-bs-toggle = "offcanvas"
+                    data-bs-target = "#offcanvasExample" aria-controls = "offcanvasExample">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
                 <div class="offcanvas offcanvas-start-lg" tabindex = "-1" id="offcanvasExample"
                 aria-labelledby = "offcanvasExampleLabel">
                    
@@ -123,11 +128,36 @@
                                     <span class="text">potensi</span>
                                 </a>
                             </li>
+                            <li class="nav-item d-none d-lg-block">
+                                <button type="button" class="border-0 bg-transparent ps-3 mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </nav>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header border-0">
+                  <h5 class="modal-title" id="exampleModalLabel">Apa yang ingin Anda cari?</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pt-0">
+                    <form action="search-desa.html" method="post">
+                        <div class="input-group">
+                            <input class="form-control rounded me-3" placeholder="Ketik disini..." type="text">
+                            <input type="button" class="rounded btn btn-primary text-capitalize" name="upload" value="Cari">
+                        </div>
+                        <!-- <button title="search" class="btn btn-primary" type="submit" data-toggle="modal" href="index.html">Cari</button> -->
+                    </form>
+                </div>
+              </div>
+            </div>
+        </div>
 
         <header class="masthead transparant">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">

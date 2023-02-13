@@ -63,6 +63,7 @@ a {
   color: #000;
   &:hover {
     filter: opacity(80%);
+    color: unset;
   }
 }
 h2 {  
@@ -105,12 +106,6 @@ text-align-last:center;
   background-color: $primaryColor;
   &:hover {
     background-color: $primaryColor;
-  }
-}
-.btn-blue {
-  background-color: #1E5AF9;
-  &:hover {
-    background-color: #1E5AF9;
   }
 }
 .btn-white {
@@ -650,6 +645,7 @@ section {
   height: 120px;
   line-height: 25px;
   filter: grayscale(75%);
+  box-shadow: 2px 5px 5px 5px  rgba(226,204,189,1);
   &:hover {
     filter: unset;
     cursor:pointer;

@@ -342,16 +342,16 @@ body.single .post_wrapper
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    font-weight: 600;
     -webkit-line-clamp: 2; /* number of lines to show */
     line-clamp: 2; 
     -webkit-box-orient: vertical;
 }
-.text-search h4 a {
+.text-search h5 a {
     width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
+    font-weight: 600;
     -webkit-line-clamp: 1; /* number of lines to show */
     line-clamp: 1; 
     -webkit-box-orient: vertical;

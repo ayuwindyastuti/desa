@@ -645,7 +645,7 @@ section {
   height: 120px;
   line-height: 25px;
   filter: grayscale(75%);
-  box-shadow: 2px 5px 5px 5px  rgba(226,204,189,1);
+  box-shadow: 2px 5px 10px 1px  rgba(226,204,189,1);
   &:hover {
     filter: unset;
     cursor:pointer;

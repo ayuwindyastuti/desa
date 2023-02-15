@@ -707,7 +707,7 @@ section {
   height: 120px;
   line-height: 25px;
   filter: grayscale(75%);
-  box-shadow: 2px 5px 5px 5px #e2ccbd;
+  box-shadow: 2px 5px 10px 1px #e2ccbd;
 }
 
 .img-profil:hover {

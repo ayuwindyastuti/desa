@@ -345,6 +345,7 @@ body.single .post_wrapper
     -webkit-line-clamp: 2; /* number of lines to show */
     line-clamp: 2; 
     -webkit-box-orient: vertical;
+    font-weight: 600;
 }
 .text-search h5 a {
     width: 100%;
@@ -356,7 +357,9 @@ body.single .post_wrapper
     line-clamp: 1; 
     -webkit-box-orient: vertical;
 }
-
+.text-search p {
+    font-weight: 400!important;
+}
 .post_header_title p {
     width: 100%;
     overflow: hidden;
@@ -1545,6 +1548,7 @@ body.single .post_content_wrapper .post_img:not(.small)
 {
     font-size: 20px;
     line-height: 1.2;
+    font-weight: 600;
 }
 
 .post_ft_img
@@ -4109,6 +4113,7 @@ ul.post_filter li a.selected
 {
     font-size: 15px;
     line-height: 1.4;
+    font-weight: 600;
 }
 
 .ppb_blog_grid_with_posts .one_third.last .post_img
@@ -5359,6 +5364,7 @@ ul.post_filter li a.selected {
     font-size: 0.75em;
     text-transform: capitalize;
     color: #000;
+    font-weight: 600;
 }
 
 .ln-img img {

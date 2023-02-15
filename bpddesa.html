@@ -134,14 +134,15 @@
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header border-0">
-                  <h5 class="modal-title" id="exampleModalLabel">Apa yang ingin Anda cari?</h5>
+                  <h5 class="modal-title" id="exampleModalLabel">Berita / potensi apa yang ingin Anda cari ?</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body pt-0">
                     <form action="search-desa.html" method="post">
                         <div class="input-group">
                             <input class="form-control rounded me-3" placeholder="Ketik disini..." type="text">
-                            <input type="button" class="rounded btn btn-primary text-capitalize" name="upload" value="Cari">
+                            <a href="search-page.html" class="rounded btn btn-primary text-capitalize" name="upload">Cari</a>
+                            <!-- <input type="button" class="rounded btn btn-primary text-capitalize" name="upload" value="Cari"> -->
                         </div>
                         <!-- <button title="search" class="btn btn-primary" type="submit" data-toggle="modal" href="index.html">Cari</button> -->
                     </form>
@@ -154,103 +155,7 @@
             <div class="container">
                 <div class="body-content text-center">
                     <h2 class="title-section text-bold pb-md-5">badan permusyawaratan desa</h2>
-                    <!-- <div class="row d-none d-md-block bg-gradient">
-                        <table class="table table-hover bg-transparent table-borderless text-center align-middle mx-auto w-auto p-5" id="gallery" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            <thead class="bg-purple text-white table-border rounded">
-                                <tr>
-                                    <th scope="col">No</th>
-                                    <th scope="col">Foto</th>
-                                    <th scope="col">Nama</th>
-                                    <th scope="col">Jenis Kelamin</th>
-                                    <th scope="col">Jabatan</th>
-                                </tr>
-                            </thead>
-                            <tbody class="table-group-divider">
-                                <tr>
-                                    <th scope="row">1</th>
-                                    <td><a><img src="images/pegawai-1.jpg" class="img-fluid img-profil" data-bs-target="#carouselExample" data-bs-slide-to="0"/></a>
-                                    </td>
-                                    <td>Tom Cruise, ST.MJ.</td>
-                                    <td>Laki-laki</td>
-                                    <td>Kepala Desa</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">2</th>
-                                    <td><img src="images/pegawai-2.jpg" class="img-fluid img-profil" data-bs-target="#carouselExample" data-bs-slide-to="1"/></td>
-                                    <td>Chris Evans, S.Kom</td>
-                                    <td>Laki-laki</td>
-                                    <td>Wakil Kepala Desa</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">3</th>
-                                    <td><img src="images/pegawai-4.jpg" class="img-fluid img-profil" data-bs-target="#carouselExample" data-bs-slide-to="2"/></td>
-                                    <td>Katy Perry, S.Kom</td>
-                                    <td>Perempuan</td>
-                                    <td>Sekretaris Desa</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">4</th>
-                                    <td><img src="images/pegawai-3.jpg" class="img-fluid img-profil" data-bs-target="#carouselExample" data-bs-slide-to="3"/></td>
-                                    <td>Adam Levine, S.pd</td>
-                                    <td>Laki-laki</td>
-                                    <td>Kasi Pemerintahan</td>
-                                </tr>
-                            </tbody>
-                        </table> 
-                    </div> -->
                     <div class="row g-4 text-start bg-white rounded " data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        <!-- <div class="col-sm-6 col-lg-4 g-2">
-                            <div class="team p-2 d-flex justify-content-center align-items-center">
-                                <div class="image-team me-2">
-                                    <img src="images/pegawai-1.jpg" class="img-fluid img-profil" data-bs-target="#carouselExample" data-bs-slide-to="0">
-                                </div>
-                                <div class="desc-team">
-                                    <h3 class="mb-0 text-bold team-name">Tom Cruise, ST.MJ.</h3>
-                                    <p class="team-desc text-light">Kepala Desa</p>
-                                    <p class="mb-1"></p>
-                                    <p class="team-desc text-light">Laki-laki</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-lg-4  g-2">
-                            <div class="team p-2 d-flex justify-content-center align-items-center">
-                                <div class="image-team me-2">
-                                    <img src="images/pegawai-2.jpg" class="img-fluid img-profil" data-bs-target="#carouselExample" data-bs-slide-to="1">
-                                </div>
-                                <div class="desc-team">
-                                    <h3 class="mb-0 text-bold team-name">Chris Evans, S.Kom</h3>
-                                    <p class="team-desc text-light">wakil Kepala Desa</p>
-                                    <p class="mb-1"></p>
-                                    <p class="team-desc text-light">Laki-laki</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 g-2 col-lg-4">
-                            <div class="team p-2 d-flex justify-content-center align-items-center">
-                                <div class="image-team me-2">
-                                    <img src="images/pegawai-4.jpg" class="img-fluid img-profil" data-bs-target="#carouselExample" data-bs-slide-to="2">
-                                </div>
-                                <div class="desc-team">
-                                    <h3 class="mb-0 text-bold team-name">Katy Perry, S.Kom</h3>
-                                    <p class="team-desc text-light">sekretaris Desa</p>
-                                    <p class="mb-1"></p>
-                                    <p class="team-desc text-light">Perempuan</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 g-2 col-lg-4 ">
-                            <div class="team p-2 d-flex justify-content-center align-items-center">
-                                <div class="image-team me-2">
-                                    <img src="images/pegawai-3.jpg" class="img-fluid img-profil" data-bs-target="#carouselExample" data-bs-slide-to="3">
-                                </div>
-                                <div class="desc-team">
-                                    <h3 class="mb-0 text-bold team-name">Adam Levine, S.pd</h3>
-                                    <p class="team-desc text-light">kasi pemerintahan</p>
-                                    <p class="mb-1"></p>
-                                    <p class="team-desc text-light">Laki-laki</p>
-                                </div>
-                            </div>
-                        </div> -->
                         <div class="col-sm-6 d-lg-none g-2">
                             <div class="team p-2 d-flex justify-content-center align-items-center">
                                 <div class="image-team me-2">

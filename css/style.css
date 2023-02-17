@@ -226,8 +226,9 @@ label,
   .navbar {
     padding: 1em 0;
   }
-  .navbar .container .navbar-brand {
+  .navbar .container .navbar-brand img {
     width: 68px;
+    height: 68px;
   }
 }
 

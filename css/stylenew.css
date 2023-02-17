@@ -154,7 +154,7 @@ body.single .post_wrapper
     margin-bottom: 0;
 }
 
-.post_header h2 a, .post_header_title h5 a, .post_header h5, .standard_wrapper h2, .post_header.grid a, .ln-txt h3, .next_post_title h5 a, .text-search p {
+.post_header h2 a, .post_header_title h5 a, .post_header h5, .standard_wrapper h2, .post_header.grid a, .ln-txt h3, .next_post_title h5 a, .text-search h5, .text-search p {
     width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -163,6 +163,9 @@ body.single .post_wrapper
     line-clamp: 2; 
     -webkit-box-orient: vertical;
     font-weight: 600;
+}
+.text-search p {
+    font-weight: 400!important;
 }
 .post_header_title p {
     width: 100%;

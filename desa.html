@@ -16,7 +16,9 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/bootstrap.min.css" rel="stylesheet" >
         <link href="css/style.css" rel="stylesheet" type="text/css">
-        
+
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
         <link rel="stylesheet" href="css/animation.css" type="text/css" media="all" />
         <link rel="stylesheet" href="css/ilightbox/ilightbox.css" type="text/css" media="all" />
         <link rel="stylesheet" href="css/jqueryui/custom.css" type="text/css" media="all" />
@@ -210,17 +212,17 @@
             <div class="container">
                 <div class="content pt-0">
                     <div class="row align-items-center">
-                        <div class="col-md-6 text-dark text-center text-md-start align-self-md-center">
-                            <h2 class="text-medium">Sukatani</h2>
-                            <h4 class="mt-4">Desa bersahaja</h4>
+                        <div class="col-md-6 text-dark text-center text-md-start align-self-md-center" data-aos="fade-right">
+                            <h2 class="title-section">Sukatani</h2>
+                            <h3 class="mt-4">Desa bersahaja</h3>
                             <p class="text-light">Pemerintah Desa Sukatani berkomitmen penuh melayani masyarakat. Sebagai desa mandiri, Desa Sukatani terus bertumbuh bersama dengan masyarakat desa.</p>
                         </div>
                         <div class="col-md-6">
                             <div class="img-desa d-flex flex-wrap">
-                                <img src="images/img-desa-1-400.jpg" class="d-block px-1">
-                                <img src="images/img-desa-2-400.jpg" class="d-block px-1">
-                                <img src="images/img-desa-3-400.jpg" class="d-block px-1">
-                                <img src="images/img-desa-4-400.jpg" class="d-block px-1"> 
+                                <img src="images/img-desa-1-400.jpg" class="d-block px-1" data-aos="zoom-in" data-aos-delay="1000">
+                                <img src="images/img-desa-2-400.jpg" class="d-block px-1" data-aos="zoom-in" data-aos-delay="1000">
+                                <img src="images/img-desa-3-400.jpg" class="d-block px-1" data-aos="zoom-in" data-aos-delay="1000">
+                                <img src="images/img-desa-4-400.jpg" class="d-block px-1" data-aos="zoom-in" data-aos-delay="1000"> 
                             </div>
                         </div>
                     </div> 
@@ -231,21 +233,21 @@
         <section id="dataWilayah">
             <div class="container">
                 <div class="content text-center text-white">
-                    <h2 class="title-section mb-lg-5 text-white">Data Administrasi Wilayah</h2>
+                    <h2 class="title-section mb-lg-5 text-white" data-aos="fade-down">Data Administrasi Wilayah</h2>
                     <div class="row justify-content-center g-xl-5 text-center">
-                        <div class="col-3">
+                        <div class="col-3" data-aos="zoom-in" data-aos-delay="600">
                             <img src="images/icon-daerah.png">
                             <p class="desc">959,6 Km2</p>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3" data-aos="zoom-in" data-aos-delay="800">
                             <img src="images/icon-family.png">
                             <p class="desc">8.493 Penduduk</p>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3" data-aos="zoom-in" data-aos-delay="1000">
                             <img src="images/icon-man.png">
                             <p class="desc">4.461 Laki-Laki</p>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3" data-aos="zoom-in" data-aos-delay="1200">
                             <img src="images/icon-woman.png">
                             <p class="desc">4.032 Perempuan</p>
                         </div>
@@ -257,9 +259,9 @@
         <section id="berita"> 
             <div class="container">
                 <div class="body-content">
-                    <h2 class="title-section text-medium text-center text-bold">Berita Terkini</h2>
+                    <h2 class="title-section text-medium text-center text-bold" data-aos="zoom-in">Berita Terkini</h2>
                     <div class="ln-wrapper d-md-flex">
-                        <div class="ln-list">
+                        <div class="ln-list" data-aos="fade-right" data-aos-delay="400">
                             <div class="ln-img">
                                 <a href="detaildesa.html"><img src="images/berita-1-800.jpg"></a>
                             </div>
@@ -274,7 +276,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="ln-list">
+                        <div class="ln-list" data-aos="fade-right" data-aos-delay="800">
                             <div class="ln-img">
                                 <a href="detaildesa.html"><img src="images/berita-1-800.jpg"></a>
                             </div>
@@ -289,7 +291,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="ln-list">
+                        <div class="ln-list" data-aos="fade-right" data-aos-delay="1200">
                             <div class="ln-img">
                                 <a href="detaildesa.html"><img src="images/berita-1-800.jpg"></a>
                             </div>
@@ -311,7 +313,7 @@
        
         <section id="potensiDesa">
             <div class="container">
-                <h2 class="title-section text-medium text-center text-bold">Potensi Desa</h2>
+                <h2 class="title-section text-medium text-center text-bold" data-aos="fade-down-left">Potensi Desa</h2>
                 <div class="slick-pd">
                     <div class="ln-wrapper d-md-flex">
                         <div class="ln-list">
@@ -393,10 +395,15 @@
         </footer>
 
         <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
-        <script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script>  
-        <script type="text/javascript" src="js/popper.min.js"></script>  
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="js/lozad.js"></script>
         <script type="text/javascript" src="js/custom.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+            AOS.init({
+                duration: 2000,
+                delay: 200,
+            });
+        </script>
     </body>
 </html>

@@ -1446,10 +1446,10 @@ ul.post_filter li a.selected {
     padding: 10px;
     margin: 5px;
 }
+.img-1 img, .img-2 img, .img-3 img, .img-4 img, .img-5 img, .img-6 img {
+    border-radius: 10px;
+}
 @media screen and (min-width: 768px) {
-    .img-1 img, .img-2 img, .img-3 img, .img-4 img, .img-5 img, .img-6 img {
-        border-radius: 10px;
-    }
     .img-1,
     .img-5 {
     width: calc(25% - 15px);

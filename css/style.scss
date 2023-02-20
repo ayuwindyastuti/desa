@@ -1021,21 +1021,7 @@ th,td {
     .hover-potensi {
       top:10px;
       height: calc(100% - 20px);
-    }
-    .img-1,
-    .img-5 {
-      width: 10%;
-      height: unset;
-    }
-    .img-2,
-    .img-6 {
-      width:50%;
-      height: unset;
-    }
-    .img-3,
-    .img-4 {
-      width:30%;
-      height: unset;
+      border-radius: 10px;
     }
     img {
       height: 100%;

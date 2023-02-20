@@ -1014,21 +1014,7 @@ th, td {
   .list-potensi .hover-potensi {
     top: 10px;
     height: calc(100% - 20px);
-  }
-  .list-potensi .img-1,
-  .list-potensi .img-5 {
-    width: 10%;
-    height: unset;
-  }
-  .list-potensi .img-2,
-  .list-potensi .img-6 {
-    width: 50%;
-    height: unset;
-  }
-  .list-potensi .img-3,
-  .list-potensi .img-4 {
-    width: 30%;
-    height: unset;
+    border-radius: 10px;
   }
   .list-potensi img {
     height: 100%;

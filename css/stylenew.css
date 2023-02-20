@@ -1442,40 +1442,36 @@ ul.post_filter li a.selected {
     object-fit: cover;
     width: 100%;
     display: block;
-    max-height: 250px;
+    max-height: 200px;
     padding: 10px;
     margin: 5px;
 }
 @media screen and (min-width: 768px) {
-    .img-pot {
-        max-height: 200px;
-
+    .img-1 img, .img-2 img, .img-3 img, .img-4 img, .img-5 img, .img-6 img {
+        border-radius: 10px;
     }
     .img-1,
     .img-5 {
-    width: 20%;
+    width: calc(25% - 15px);
     height: unset;
+    border-radius: 10px;
     }
 
     .img-2,
     .img-6 {
-    width:40%;
+    width: calc(45% - 15px);
     height: unset;
+    border-radius: 10px;
     }
     .img-3,
     .img-4 {
-    width:30%;
+    width: calc(30% - 15px);
     height: unset;
+    border-radius: 10px;
     }
 }
 @media screen and (min-width: 992px) {
     .img-pot {
         max-height: 250px;
-      
-    }
-}
-@media screen and (min-width: 1200px) {
-    .img-pot {
-        max-height: 400px;
     }
 }
